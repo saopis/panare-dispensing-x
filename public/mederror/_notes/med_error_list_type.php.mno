@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_med_error_type" value="name:id;datatype:int,name:detail;datatype:string,name:date;datatype:date,name:dep_report;datatype:int,name:category;datatype:blob,name:name;datatype:string,name:type_thai;datatype:string,name:tid;datatype:int" />
+	<infoitem key="UD_doctor" value="name:name;datatype:string,name:doctorcode;datatype:string" />
+	<infoitem key="UD_drug" value="name:id;datatype:int,name:rid;datatype:int,name:icode;datatype:string,name:did;datatype:string,name:drug_option;datatype:int,name:drug_edit;datatype:string,name:stamp;datatype:string" />
+	<infoitem key="UD_drug2" value="name:drug_name;datatype:string" />
+</info>

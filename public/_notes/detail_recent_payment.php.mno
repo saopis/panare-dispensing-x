@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_recent" value="name:doctorcode;datatype:string,name:print_staff;datatype:string,name:prepare_staff;datatype:string,name:check_staff;datatype:string,name:pay_staff;datatype:string,name:update_datetime;datatype:datetime" />
+</info>

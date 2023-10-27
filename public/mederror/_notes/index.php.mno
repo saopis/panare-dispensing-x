@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_error_cause" value="name:id;datatype:int,name:name;datatype:string" />
+	<infoitem key="UD_department" value="name:id;datatype:int,name:name;datatype:string,name:show;datatype:int" />
+</info>

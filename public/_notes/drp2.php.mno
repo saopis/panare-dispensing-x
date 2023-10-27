@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_drp_intervention" value="name:drp_intervention_type_id;datatype:int,name:drp_intervention_type_name;datatype:string,name:drp_intervention_group_code;datatype:string,name:std_code;datatype:string" />
+	<infoitem key="UD_rs_outcome" value="name:drp_outcome_type_id;datatype:int,name:drp_outcome_type_name;datatype:string" />
+</info>

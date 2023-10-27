@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_patient" value="name:chn;datatype:int" />
+	<infoitem key="UD_ipd1" value="name:cc;datatype:real" />
+	<infoitem key="UD_error_type" value="name:id;datatype:int,name:type_thai;datatype:string,name:countid;datatype:int" />
+	<infoitem key="UD_med_error_cause" value="name:name;datatype:string,name:count(ec.id);datatype:int,name:id;datatype:int" />
+</info>

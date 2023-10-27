@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_cause" value="name:name;datatype:string" />
+	<infoitem key="UD_sub_cause" value="name:id;datatype:int,name:cause_id;datatype:int,name:sub_name;datatype:string" />
+</info>

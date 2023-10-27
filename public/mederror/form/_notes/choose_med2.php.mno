@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_chw" value="name:id;datatype:int,name:provid;datatype:string,name:provname;datatype:string" />
+</info>

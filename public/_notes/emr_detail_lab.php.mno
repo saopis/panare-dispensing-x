@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_lab_head" value="name:vn;datatype:string,name:form_name;datatype:string,name:lab_order_number;datatype:int,name:name;datatype:string,name:orderdate;datatype:string" />
+</info>

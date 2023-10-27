@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_error" value="name:id;datatype:int,name:date_error;datatype:date,name:person;datatype:string,name:predis_type;datatype:string,name:drugname1;datatype:string,name:drugname2;datatype:string,name:personid;datatype:int" />
+	<infoitem key="UD_countdate" value="name:id;datatype:int" />
+</info>

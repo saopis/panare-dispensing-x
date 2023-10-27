@@ -1,0 +1,1873 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>แนวทางการบริหารยาฉีดเพื่อลดความเสี่ยง</title>
+<!-- jquery -->
+<script src="include/jquery/js/jquery.min.js" ></script>
+<!-- shortcut -->
+<script src="include/shortcut/js/shortcut.js"></script>
+<!-- bootstrap -->
+<link rel="stylesheet" href="include/bootstrap/css/bootstrap.min.css"/>
+<script src="include/bootstrap/js/popper.min.js"></script>
+<script src="include/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="include/bootstrap/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="include/bootstrap/js/dataTables.bootstrap4.min.js"></script>
+<link rel="stylesheet" type="text/css" href="include/bootstrap/css/jquery.dataTables.min.css"/>
+</head>
+<!-- fontawesome -->
+<link rel="stylesheet" href="include/fontawesome/css/all.css"/>
+<!-- kohrx -->
+<link rel="stylesheet" href="include/kohrx/css/kohrx.css"/>
+<!-- datepicker -->
+<link rel="stylesheet" href="include/datepicker/css/jquery.datetimepicker.css"/>
+<script src="include/datepicker/js/jquery.datetimepicker.full.js"></script>
+<!-- colorbox -->
+<script src="include/colorbox/js/jquery.colorbox.js"></script>
+<link rel="stylesheet" href="include/colorbox/css/colorbox.css"/>
+<!-- Material icon -->    
+<link rel="stylesheet" href="include/materialicon/css/materialicon.css"/>
+<!-- auto complete -->    
+<script src="include/jquery/js/jquery-ui.js"></script>
+<link rel="stylesheet" href="include/jquery/css/jquery-ui.css" type="text/css" />
+<!-- input Mask -->    
+<script type='text/javascript' src="https://rawgit.com/RobinHerbots/jquery.inputmask/3.x/dist/jquery.inputmask.bundle.js"></script>
+<script>
+$(document).ready(function() {
+    // Setup - add a text input to each footer cell
+    $('#example thead tr').clone(true).appendTo( '#example thead' );
+    $('#example thead tr:eq(1) th').each( function (i) {
+        var title = $(this).text();
+        $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
+ 
+        $( 'input', this ).on( 'keyup change', function () {
+            if ( table.column(i).search() !== this.value ) {
+                table
+                    .column(i)
+                    .search( this.value )
+                    .draw();
+            }
+        } );
+    } );
+ 
+    var table = $('#example').DataTable( {
+        		orderCellsTop: true,
+		        "scrollY":        "60vh",
+				"paging":   false,
+        		"ordering": false,
+        		"info":     false
+				
+    } );
+} );
+</script>
+<style>
+html,body{overflow-y:hidden; }
+
+</style>
+
+<style type="text/css">
+<!--
+
+.style2 {
+	color: #FF6600;
+	font-weight: bold;
+}
+.style3 {color: red; font-weight: bold; font-size: 12px; }
+-->
+.border-black > thead > tr > th,
+.border-black > tbody > tr > td {
+	border:solid 1px #000000;}
+.dataTables_wrapper .dataTables_filter {
+float: right;
+text-align: right;
+visibility: hidden;
+margin-top:-70px;
+}
+thead input {
+        width: 80%;
+    }
+</style>
+<link href="images/normal.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<nav class="navbar navbar-dark thfont bg-success text-white position-absolute w-100" style="" >
+  <!-- Navbar content -->
+  <span class="card-title"  ><i class="fas fa-syringe">&ensp;แนวทางการบริหารยาฉีดเพื่อลดความเสี่ยง</i></span>
+</nav>
+<div style=" position:absolute;margin-top:50px; overflow:hidden; width:100%; padding:10px;">
+
+<table class="display table table-bordered table-striped border-black w-100" id="example" style=" border-collapse:collapse" >
+<thead >
+  <tr class="font12" >
+    <th  align="center">ยา</th>
+    <th  align="left">ข้อบ่งใช้/วิธีฉีด</th>
+    <th  align="center"><span class="">สารละลายที่ใช้ได้</span></th>
+    <th  align="center"><span class="">วิธีเตรียม</span></th>
+    <th  align="center"><span class="">ระยะเวลาที่ฉีด</span></th>
+    <th align="center"><span class="">อื่นๆ </span></th>
+    <th align="center">การติดตามการใช้ยา</th>
+    <th align="center">ข้อควรระวัง</th>
+  </tr>
+    </thead>
+
+<tbody class="font12">
+    <tr>
+    <td align="center" valign="top" ><span class=""><span class="style3"><a name="A" id="A"></a>Aethoxyskelerol</span><br />
+      (polidocanol)<br />
+      1% 2 ml<br />
+    3% 2 ml</span></td>
+    <td align="left" valign="top" ><span class="">-รักษาเส้นเลือดขอด (sclerosing of varicosevein) 2 mg/kg bodyweight daily<br />
+    Intravariceal, Paravariceal</span></td>
+    <td align="center" valign="top" ><span class="">-</span></td>
+    <td align="left" valign="top" ><span class="">-</span></td>
+    <td align="left" valign="top" ><span class="normal11black_u"><strong>Direct IV</strong> :</span><span class=""> 3 - 5 นาที<br />
+      <br />
+        </span><span class="normal11black_u" ><strong>Infusion</strong> :</span><span class=""> 30 - 60<br />
+    นาที</span></td>
+    <td align="left" valign="top" ><span class="">- ห้ามใช้ในหญิงตั้งครรภ์ระยะ 3 เดือนแรก,ในคนไข้มีประวัติหอบหืด,โรคไต,โรคหัวใจ,เส้นเลือดแข็ง,ความดันสูง<br />
+_US FDA Preg Cat B</span></td>
+    <td align="left" valign="top" >&nbsp;</td>
+    <td align="left" valign="top" >&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Acetylcystein</span><span class=""><br />
+  (Fluimucil)<br />
+  300 mg/3ml</span></td>
+    <td align="left" valign="top"><span class="">- Antidote ยา paracetamol 300 mg/kg แบ่งให้ 3 ครั้ง 150,50 และ 100mg/kg ตามลำดับ<br />
+      IV infusion<br />
+      ในเด็กให้ 140 mg /kg 5% solution<br />
+    ตามด้วย 70 mg ทุกๆ 4 ชม ใช้ 17 dose</span></td>
+    <td align="center" valign="top"><span class="">D5W</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>ครั้งที่ 1:</strong></span><span class=""> 150mg/kg in 200 ml D5W<br />
+  </span><span class="normal11black_u"><strong><br />
+  ครั้งที่ 2:</strong></span><span class=""> 50mg/kg in 500 ml D5W<br />
+  </span><span class="normal11black_u"><strong><br />
+  ครั้งที่ 3:</strong></span><span class=""> 100mg/kg in 1,000ml D5W</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">ครั้งที่ 1:</span><span class=""> 15 นาที<br />
+      <br />
+  </span><span class="normal11black_u">ครั้งที่ 2:</span><span class=""> 4 ชม.<br />
+  </span><span class="normal11black_u"><br />
+  ครั้งที่3 :</span><span class=""> นาน 16 ชม</span></td>
+    <td align="left" valign="top"><span class="">- หลังละลายและเจือจางเก็บได้ 24 ขม.<br />
+      - ควรให้หลังได้รับยา paracet overdose 8-15 ชม<br />
+      - เกิดวิงเวียน,หนาวสั่น ,หลอดลมตีบ ปวดศรีษะ หูอื้อ ผื่นคัน<br />
+      - เกิดanaphylatic reation ได้น้อย<br />
+    - USFDA Preg Cat B</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3"><strong>Acyclovir</strong></span><span class=""><br />
+  500 mg<br />
+  (Zovirax)</span></td>
+    <td align="left" valign="top"><span class="">-Antivirus<br />
+      5-10 mg/kg ให้นานกว่า 1 ชม ทุก ๆ 8 ชม นาน 5- 7 วัน<br />
+      IV infusion<br />
+      ในเด็ก คิดตามพื้นที่ผิว 250 mg/m2 ใข้ 5 mg/kg และ 500 mg /m2 ใข้ 10 mg/kg</span></td>
+    <td align="center" valign="top"><span class="">D5W,D5S/2<br />
+      D5S/4,D5S<br />
+      ,NSS,<br />
+    RINGER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>ละลาย:</strong></span><span class=""> 500 mg ในน้ำกลั่น 10 ml (1 gm ในน้ำกลั่น 20 ml)</span></td>
+    <td align="left" valign="top"><span class="">ช้าๆภายใน 60นาที เพื่อทำลาย renal tubular น้อยที่สุด</span></td>
+    <td align="left" valign="top"><span class="">-หลังละลายควรใช้ภายใน 12 ชม=อุณหภูมิห้อง<br />
+      - หลังเจือจางใช้ภายใน 24 ชม=ห้อง สามารถนำมาใช้ได้อีก- ให้น้ำเพียงพอ (2000-3000 ml/วัน) ป้องกัน crystaluria ในช่วง 2 ชมแรก <br />
+      - ลดขนาดยาและเพิ่มช่วงระยะเวลาให้ในคนไข้ที่มี Cr clerance 50 ml/min/1.73m2 หรือน้อยกว่า<br />
+    - USFDA Preg Cat B</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Adrenalin</span><span class=""><br />
+  1 mg/ml</span></td>
+    <td align="left" valign="top"><span class="">-Amaphylaxis,Cardiac resuscitation<br />
+      Anphylaxis 0.1-0.5 mg ทุก 5 นาทีCardiac<br />
+      resuscitation :0.5 – 1 mg ทุก 5 นาที<br />
+    SC,Directed IV,Iv infusion</span></td>
+    <td align="center" valign="top"><span class="">D5W,D10W,D5S/<br />
+      2 D5S,<br />
+      0.45% Na CI<br />
+    NSS,RINGER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>Sc, Direct IV :</strong></span><span class=""> เจือจางให้ได้ 1:10000 โดยนำยา 1 mg (1ml)+NSS 10 ml<br />
+      <br />
+  </span><span class="normal11black_u"><strong>Infusion :</strong></span><span class=""> เจือจางในสารละลาย 250 – 500 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>Direct IV</strong></span><span class=""> 5 – 10 
+  นาที<br />
+  </span><span class="normal11black_u"><strong>Infusion</strong></span><span class="">:1-10 mg/ นาที</span></td>
+    <td align="left" valign="top"><p>- สารน้ําที่ใช้ได้ : D5W, D5S, NSS, LRS <br />
+      - ความคงตัวหลังผสม : 24 ชั่วโมง <br />
+      - SC หรือ IM สามารถให้ยาในขนาด 1: 1,000 <br />
+      - IV injection ต้องเจือจางด้วย NSS อย่างน้อย 10 ml ให้ได้ความเข้มข้น 1: 10,000 หรือ 0.1 mg/ml <br />
+      - IV infusion ควรผสมใน D5W โดยคํานวณปริมาณได้จากอัตราเร็วที่ต้องการให้ยาดังตาราง
+      </p></td>
+    <td align="left" valign="top"><p>- ในกรณี CPR ให้บันทึก  Vital signs (Heart rate, BP) ทันที เมื่อผู้ป่วยเริ่มมีชีพจร <br />
+      - ในกรณี Anaphylaxis ให้บันทึก  Vital signs (Heart rate, BP) ทุก 10  นาที จนครบ 30 นาที <br />
+      - ในกรณี Hypotension ที่มีการให้ยาแบบ  IV drip ให้บันทึก Vital signs ( Heart rate,  BP) ทุก 1 ชั่วโมง ตลอดระยะเวลาที่มีการให้ยา <br />
+      - หากพบว่ามี BP &gt; 160/90 mmHg หรือ  HR &gt; 120 ครั้ง/นาทีในผู้ใหญ่ และ BP &gt;  120/80 mmHg <br />
+      หรือ HR &gt; 180  ครั้ง/นาที ในเด็ก ให้แจ้งแพทย์ทันที <br />
+    - ตรวจดูตําแหน่ง IV site ทุก  1 ชั่วโมง ตลอดระยะเวลาที่มีการให้ยา</p></td>
+    <td align="left" valign="top">
+- ห้ามใช้ในผู้ป่วยที่มีความดันโลหิตสูง <br />
+- ระมัดระวังการใช้ในผู้ป่วยที่มีโรคหัวใจเต้นผิดจังหวะ, โรคของหลอดเลือดส่วนปลาย (peripheral vascular disease) <br />
+<span class="">- สารละลายสีน้ำตาลห้ามใช้<br />
+- USFDA Preg Cat C</span></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Amikacin(Amikin)</span><span class=""><br />
+  500mg/2ml</span></td>
+    <td align="left" valign="top"><span class="">Antibiotic (amminoglycoside)<br />
+      - 5-7.5 mg/kg ทุก 12 ชม total daily<br />
+      dose ไม่เกิน 15mg/kg หรือ 1.5 gm<br />
+      ในคนอ้วน<br />
+    -IM,Intermittent IV</span></td>
+    <td align="center" valign="top"><span class="">D5W,D10W,NSS<br />
+      ,D5S,D5S/2,RIN<br />
+    GER</span></td>
+    <td align="left" valign="top"><span class="">เจือจางในสารละลายที่ใช้ได้ 100-200 ml</span></td>
+    <td align="left" valign="top"><span class="">30-60 นาที</span></td>
+    <td align="left" valign="top"><span class="">- คงตัว 24 ชมอุณหภูมิห้อง<br />
+      - ระวังการใช้ในคนไข้โรคไต,โคตับ,สูงอายุ ให้ยาชนาดสูง ๆ และนาน,คนไข้ขาดน้ำ-และเช็คการได้ยินของหู<br />
+    - USFDA Preg Cat D</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Aminophyllin</span><span class=""><br />
+  250 mg/10ml</span></td>
+    <td align="left" valign="top"><span class="">Bronchial asthma,Bronchodilator<br />
+      Dose variable<br />
+      Loading 5mg/kg<br />
+      Direct IV&lt;IV infusion<br />
+      - ผู้ป่วยCHF = 0.3 mg /kg/hr<br />
+      - Normal =0.6 mg /kg/hr<br />
+    -Smoker =0.9mg/kg/hr</span></td>
+    <td align="center" valign="top"><span class="">D5W,D10W,<br />
+      0.45%NaCL,<br />
+    NSS,RINGER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>Direct IV:</strong></span><span class="">.ให้ loading doseใน 20-30 นาที ไม่ควรให้เร็วเกิน 25mg/min หากเกิดอาการข้างเคียง ควรหยุดก่อน 5 – 10 นาทีแล้วให้ต่อในอัตราเร็วที่ลดลง<br />
+  </span><br />
+  <span class="normal11black_u">Infusion</span><span class="">: ไม่ให้เกิน 25 mg/min</span></td>
+    <td align="left" valign="top"><span class="">20 – 30 นาที</span></td>
+    <td align="left" valign="top"><span class="">-หลังเจือจางแล้วควรใข้ภายใน 24 ชม เมื่อเก็บในตู้เย็น<br />
+      -Monitor vital sign และ side effect จากยา เช่น nervousness,anxiety,tachycardia, คลื่นไส้, อาเจียน<br />
+      -ระวัง DI กับ cimetidine,ciprofloxacin,erythromycin, clarithromycin<br />
+    USFDA Preg Cat C</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Amoidarone</span><span class=""><br />
+  (Cordarone)<br />
+  150mg/3ml</span></td>
+    <td align="left" valign="top"><span class="">-Antiarrthhythmic drug<br />
+      1000mg ใน 24 ชมแรก IV infusion</span></td>
+    <td align="center" valign="top"><span class="">D5W</span></td>
+    <td align="left" valign="top"><span class="">Rapid,Slow,และ Maintenance ใช้150,360,540 mg ใน D5W จำนวน 100,200,300 ตามลำดับ</span></td>
+    <td align="left" valign="top"><span class="">15,1,0.5 mg /นาที ตามลำดับ<br />
+      1.5 mg/minเวลา 10 min<br />
+      1 mg/minเวลา &gt;6 hr<br />
+    0.5 mg/min&gt;18 hr</span></td>
+    <td align="left" valign="top"><span class="">-ถ้าสารละลายเจือจางบรรจุในภาชนะพลาสติกPVC ควรใช้ภายใน 2 ชม<br />
+      - ถ้าสารละลายเจือจางบรรจุในภาชนะแก้วควรใช้ภายใน 24 ชม<br />
+      -ระวังการใช้ในคนท้อง,ใช้ร่วมกับยาที่ทำให้เกิด torsades de pointes USFDA Preg Cat D</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Amphotericin B</span><span class=""><br />
+  (Fungizone ) 50 mg</span></td>
+    <td align="left" valign="top"><span class="">-Antifungal<br />
+      เริ่มต้น 0.25mg/kgและเพิ่มเป็น0.7-1<br />
+      mg/kgสูงสุดไม่เกิน 1.5 mg/kgbodywt/day ขนาดยาที่ใช้ 0.25-1.5 mg/kgทุก 24 hr ไม่เกิน 50 mg/day</span></td>
+    <td align="center" valign="top"><span class="">D5W</span></td>
+    <td align="left" valign="top"><span class="">ละลาย 50 mg ในน้ำกลั่น 10ml</span></td>
+    <td align="left" valign="top"><span class="">6 ชั่วโมง<br />
+    Infusion2-6 hr</span></td>
+    <td align="left" valign="top"><span class="">-test dose ใช้ 1 mg ผสมใน D5W 20-50ml ใช้เวลา 1 –30 นาทีให้ monitor fever.pulse rate ,BP ทุก 30 นาที นาน 4ชม ถ้ามีอาการ ก่อนให้ยาครั้งต่อไป<br />
+      max dose 3 – 5 วันห้ามผสมใน NSS,Ringerlactate<br />
+      -หลังละลายแล้วคงตัว 24 ชม t=ห้องหรือ 1 อาทิตย์<br />
+    ในตู้เย็น USFDA Preg Cat B</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Ampicllin 250 mg</span><span class=""><br />
+  1gm</span></td>
+    <td align="left" valign="top"><span class="">-Antibacteria<br />
+      1-2 gm ทุก ชม ไม่เกิน 12 gm/วัน<br />
+    IM,Direct IV,IV infusion</span></td>
+    <td align="center" valign="top"><span class="">D5W,D5S/2,<br />
+    NSS,RINGER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>IM:</strong></span><span class=""> 250 mg,1gm ในน้ำกลั่น<br />
+  0.9 และ 3.4 ml ตามลำดับ<br />
+  <br />
+  </span><span class="normal11black_u"><strong>Direct IV :</strong></span><span class=""> ละลาย 250 mg ใน<br />
+  น้ำกลั่น5ml และ 1 gm ในน้ำ<br />
+  กลั่น 7.4 ml<br />
+  <br />
+  </span><span class="normal11black_u"><strong>IV infusion :</strong></span><span class=""> ในสารละลายที่ได้<br />
+  อย่างน้อย 50 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>IM :</strong></span><span class=""> 3-5 นาที<br />
+      <br />
+  </span><span class="normal11black_u"><strong>Direct IV :</strong></span><span class=""> ให้ช้า ๆ อย่างน้อย 3 – 5นาที ถ้าชนาดยา 500mg ถ้ามากกว่านั้นให้นาน 10 – 15 นาที</span></td>
+    <td align="left" valign="top"><span class="">-หลังละลายแล้วควรใช้ภายใน 1 ชม<br />
+      - หลังเจือจางแล้วควรใช้ภายใน 8 ชมที่อุณหภูมิห้อง<br />
+      หรือ 48 ชม ในตู้เย็น<br />
+      - คนไข้ ที่ใตไม่ดีต้องลดขนาดยาลง<br />
+    - USFDA Preg Cat B</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Atracurium besylate</span><span class=""><br />
+  (Tracium)<br />
+  25mg/2.5 ml</span></td>
+    <td align="left" valign="top"><span class="">-Muscle relaxants<br />
+      Initial dose : 0.4 – 0.5 mg/kg IV bolus injection<br />
+      <br />
+      Maintenance : 0.08 – 1 mg/kg ระหว่างผ่าตัด infusion rate 5-19 microgram/kg/min Continuous IV : infusion 2-15 microgm/kg/min</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5W,D5<br />
+    S</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>Bolus IV :</strong></span><span class=""> 1 dose ละลายใน<br />
+  สารละลายที่ใช้ได้อย่างน้อย 50-<br />
+  100 ml<br />
+  <br />
+  </span><span class="normal11black_u"><strong>Infusion :</strong></span><span class=""> เจือจางต่อด้วย<br />
+  สารละลายที่ใช้ได้</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>Intial</strong></span><span class="">:&gt; ครึ่ง – 1 นาที<br />
+      <br />
+  </span><span class="normal11black_u"><strong>Maintenace :</strong></span><span class=""> IV bolus 25 – 40 นาที หรือ infusion ตาม<br />
+  ขนาดยา</span></td>
+    <td align="left" valign="top"><span class="">-Initial IV bolus อาจไม่ต้องเจือจาง<br />
+      -ให้ทาง IV เท่านั้นหลังเจือจางแล้วคงตัว 24 ชมที่<br />
+      อุณหภูมิห้องหรือในตู้เย็น<br />
+      --คนไข้อาจมีความดันต่ำ ตัวแดงอาจเพราะมีการ<br />
+      หลั่งของ- histamine และอาจจะเกิด<br />
+      bronchospasmได้แต่พบได้น้อย<br />
+    - USFDA Preg Cat C</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Atropine<br />
+      sulfate inj</span><span class=""><br />
+    0.6 mg/ml</span></td>
+    <td align="left" valign="top"><span class="">-ปิดกั้น Parasympathetic activity .<br />
+      ใช้ใน sinus bradychadia,heart<br />
+      block,asystole,idioventricular,slow<br />
+      jungtion rhythms(cholinergic blocking agents)<br />
+      <br />
+      ผู้ใหญ่<br />
+      -Bradycardia: 0.5-1 mg<br />
+      -Asytole: 1mg ทุก 3 – 5 นาที<br />
+      -antidote: 1-6 mg ทุก 5 –60 นาที<br />
+    Sc,IM,direct IV</span></td>
+    <td align="center" valign="top"><span class="">Sterile water for<br />
+    Injection(SWFI)</span></td>
+    <td align="left" valign="top"><span class="">ควรให้เร็ว ๆ ป้องกันการเกิด<br />
+      paradoxical vagal activity<br />
+      IV push นาน /20-30 วินาที<br />
+    ให้ได้สูงสุด /2mg</span></td>
+    <td align="left" valign="top"><span class="">0.6 mg ใน 1 นาที</span></td>
+    <td align="left" valign="top"><span class="">-ห้ามผสมกับ IV solution<br />
+      -ใน cadiac asystole นั้น total dose ไม่ควรเกิน<br />
+      2.5 mg ใน 2ชมครึ่ง<br />
+      -ไม่ควรให้ถ้า heart rate &gt;60beat/min<br />
+      -สังเกตอาการ tachycardia ถ้าผู้ป่วยมีโรคหัวใจร่วม<br />
+      ด้วย<br />
+    - USFDA Preg Cat C</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3"><a name="B" id="B"></a>Benztropine</span><span class=""><br />
+  (cogentin)<br />
+  2 mg/2 ml</span></td>
+    <td align="left" valign="top"><span class="">-Central Anticholinergic drug<br />
+      parkinsonism<br />
+      1-2 mgอาจเพิ่มได้ถึง 4-6 mg/daily<br />
+    IM,Direct IV</span></td>
+    <td align="center" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class="">-ให้โดยไม่ต้องเจือจาง</span></td>
+    <td align="left" valign="top"><span class="">1mg/min</span></td>
+    <td align="left" valign="top"><span class="">- มักให้ทาง IM<br />
+      - ต้องควบคุมไม่ให้เกิด electrolyte imbalance และ<br />
+      fluid imbalance ระวัง sign of anticholinergic<br />
+      toxicity เช่น ปากแห้ง,ท้องผูก,กล้ามเนื้ออ่อนแรง<br />
+      ,tachycardia<br />
+    - USFDA Preg Cat C</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3"><a name="C" id="C"></a>Calcium<br />
+      gluconate</span><span class=""><br />
+    10% 10 ml</span></td>
+    <td align="left" valign="top"><span class="">-Electrolyte supplement<br />
+      1-2 gm (variable)<br />
+      (1-2 ampoule)<br />
+    Direct IV,Infusion IV</span></td>
+    <td align="center" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>Direct IV :</strong></span><span class=""> ไม่ต้องเจือจาง<br />
+      <br />
+  </span><span class="normal11black_u"><strong>Infusion IV :</strong></span><span class=""> เจือจางใน<br />
+  สารละลายที่ใช้ได้ 100 –<br />
+  1,000 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>Direct IV:</strong></span><span class=""> 0.5-2 ml/นาที<br />
+      <br />
+  </span><span class="normal11black_u"><strong>Infusion IV :</strong></span><span class=""> อย่างน้อย 30 นาทีให้น้อยกว่า 200 mg/นาที</span></td>
+    <td align="left" valign="top"><span class="">-อย่าให้ยาเร็วจะทำให้เกิด hypotension,arrhythmia<br />
+      -ถ้าเกิด crystal ใน solution ให้ใช้ความร้อนได้ ก่อน<br />
+      ให้น้ำยาจะต้องใส<br />
+    -USFDA Preg Cat C</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Cefazolin(Cefaben)</span><span class=""><br />
+  1 g</span></td>
+    <td align="left" valign="top"><span class="">- Antibiotic .Cephalosporin<br />
+      ( First generation )<br />
+      - 1 - 2 g ทุก 6 - 12 ชม. ไม่เกิน 12<br />
+    g/day Deep IM,Direct IV, Infusion</span></td>
+    <td align="center" valign="top"><span class="">NSS, D5W, D10W ,D5S/2, D5S, RINGER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>IM:</strong></span><span class=""> 1 g ในน้ำกลั่น 2.5 ml<br />
+      <br />
+  </span><span class="normal11black_u"><strong>Direct IV :</strong></span><span class=""> ละลาย 1 g ในน้ำกลั่น7.5 -10.5 ml<br />
+  <br />
+  </span><span class="normal11black_u"><strong>
+  Infusion :</strong></span><span class=""> ในสารละลายที่ใช้ได้ อย่างน้อย 50 - 100 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>Direct IV :</strong></span><span class=""> 3 - 5 นาที<br />
+      <br />
+  </span><span class="normal11black_u"><strong>Infusion :</strong></span><span class=""> 30 - 60 นาที</span></td>
+    <td align="left" valign="top"><span class="">-หลังละลายแล้วคงตัว 24 ชั่วโมงที่อุณหภูมิห้อง หลังเจือจางแล้วคงตัว 24 ชั่วโมงที่อุณหภูมิห้อง หรือ 4 วันในตู้เย็น<br />
+      -ระมัดระวังการใช้ในคนไข้ไตไม่ดีระวังการเกิด anaphylaxis ระหว่าง first dose และห้ามผสมรวมกับ aminoglycoside<br />
+    - USFDA Preg Cat B</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Cefeplme</span><span class=""><br />
+  (Maxipime)<br />
+  1 g</span></td>
+    <td align="left" valign="top"><span class="">-Antibiotic.Cephalosporin (Fouth generation)<br />
+      -500 mg - 2 g ทุก 8 -12 ชม. ตาม ความรุนแรงของโรค <br />
+      IV,IM</span></td>
+    <td align="center" valign="top"><span class="">NSS,<br />
+      D5W,<br />
+    D10W</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>IM :</strong></span><span class=""> ละลายด้วยสารละลายที่ใช้ได้ 2.4 ml<br />
+      <br />
+  </span><span class="normal11black_u"><strong>IV :</strong></span><span class=""> เจือจางให้มีความเข้มข้น 100 mg/ml</span></td>
+    <td align="left" valign="top"><span class="">IV Infusion ใน 30 นาที</span></td>
+    <td align="left" valign="top"><span class="">- หลังเจือจางแล้วเก็บในตู้เย็นได้ 7 วัน และที่อุณหภูมิห้อง 24 ชม<br />
+      - ระวังการเกิด anaphylaxis ระหว่าง firstdose<br />
+    - USFDA Preg Cat B</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Cefoxltin</span><span class=""><br />
+  (Cefoxin)<br />
+  1 g</span></td>
+    <td align="left" valign="top"><span class="">--Antibiotic.Cephalosporin ( Third Generation) 1 - 2 g ทุก 6-8 ชม<br />
+    Direct IV, Infusion IV</span></td>
+    <td align="center" valign="top"><span class="">NSS,<br />
+      D5W,<br />
+      D10W,<br />
+    RINGER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>Direct IV :</strong></span><span class=""> 1 g ในน้ำกลั่น หรือสารละลายที่ใช้ได้ 10 ml<br />
+      <br />
+  </span><span class="normal11black_u"><strong>Infusion :</strong></span><span class=""> ในสารละลายที่ใช้ได้อย่างน้อย 50-100 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>Direct IV :</strong></span><span class=""> 3-5 นาที<br />
+      <br />
+  </span><span class="normal11black_u"><strong>Infusion:</strong></span><span class="">15-30 นาที</span></td>
+    <td align="left" valign="top"><span class="">-หลังละลายแล้วคงตัว 24 ชม ที่อุณหภูมิห้องและ 2 - 7 วันในตู้เย็น<br />
+      -ระวังการเกิด anaphylaxis ระหว่าง first dose และการใช้ร่วมกับยาที่มีพิษต่อไตและในผู้ป่วยโรคไต USFDA Preg Cat B</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Cefotaxime</span><span class=""><br />
+  (Claforan)<br />
+  1 g</span></td>
+    <td align="left" valign="top"><span class="">-Antibiotic.Cephalosporin ( 3th generation ) 2-12g/24 ชม ขึ้นกับความรุนแรง ของการติดเชื้อ<br />
+    Direct IV, Intermittent IV infusion</span></td>
+    <td align="center" valign="top"><span class="">D5W,<br />
+    NSS</span></td>
+    <td align="left" valign="top"><span class="">ละลายผงยา 1 g ด้วยน้ำกลั่นอย่างน้อย 10 ml แล้วเจือจางต่อด้วยสารละลายที่ใช้ได้</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>Direct IV :</strong></span><span class=""> 3 - 5 นาที<br />
+      <br />
+  </span><span class="normal11black_u"><strong>Infusion :</strong></span><span class=""> 30 - 60 นาที</span></td>
+    <td align="left" valign="top"><span class="">-หลังละลายแล้วคงตัว 24 ชม ที่อุณหภูมิห้องและ 5 วันในตู้เย็น -หากให้ IM ควรผสม 1 % lignocaine solutionเพื่อบรรเทาอาการปวดขณะฉีด<br />
+    -USFDA Preg Cat B</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Ceftazidime</span><span class=""><br />
+  (Fortum)<br />
+  1 g</span></td>
+    <td align="left" valign="top"><span class="">-Antibiotic ,Cephalosporin ( 3’ ‘th generation) 1 - 2 g ทุก 8 - 12 ชม<br />
+    IM,Direct IV ,Infusion</span></td>
+    <td align="center" valign="top"><span class="">NSS,<br />
+      D5W,<br />
+      D10W<br />
+      ,D5S/2<br />
+      ,D5S/4<br />
+    ,D5S</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>IM : </strong></span><span class="">1 g ในน้ำกลั่น 3 ml<br />
+      <br />
+  </span><span class="normal11black_u"><strong>Direct IV :</strong></span><span class=""> 1 g ในน้ำกลั่น 10 ml<br />
+  <br />
+  </span><span class="normal11black_u"><strong>Infusion :</strong></span><span class=""> ในสารละลายที่ใช้ได้อย่างน้อย 50 - 100 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>Direct IV : </strong></span><span class="">3 - 5 นาที<br />
+      <br />
+  </span><span class="normal11black_u"><strong>Infusion :</strong></span><span class=""> 30 - 60 นาที</span></td>
+    <td align="left" valign="top"><span class="">- หลังละลายแล้วคงตัว 12 ชมที่อุณหภูมิห้องหรือ 7 วันในตู้เย็น<br />
+      - หลังเจือจางแล้วคงตัว 24ชมที่อุณหภูมิห้องหรือ 7 วันในตู้เย็น<br />
+      - สังเกต phelebitis และเปลี่ยน IV site ทุก 48-72 ชม USFDA Preg Cat B</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Ceftriaxone</span><span class=""><br />
+  (Rocephin)<br />
+  1 g</span></td>
+    <td align="left" valign="top"><span class="">-Antibiotic ,Cephalosporin ( 3’ ‘th generation) 1 - 2 g ทุก 24ชม.Meningitis ใช้ทุก 12 ชม<br />
+    IM,Infusion</span></td>
+    <td align="center" valign="top"><span class="">D5W, D10W,<br />
+      NSS,D5/NSS,<br />
+    D10/NSS</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>IM :</strong></span><span class=""> 1 g ในน้ำกลั่น หรือสารละลายที่ใช้ได้อย่างน้อย 9.6 ml<br />
+      <br />
+  </span><span class="normal11black_u"><strong>Infusion :</strong></span><span class=""> ในสารละลายที่ใช้ได้อย่างน้อย 50 - 100 ml</span></td>
+    <td align="left" valign="top"><span class="">30 - 60 นาที</span></td>
+    <td align="left" valign="top"><span class="">-หลังเจือจางแล้วคงตัว 24ชมที่อุณหภูมิห้องและ 10 วันในตู้เย็น<br />
+      -สังเกต phelebitis และเปลี่ยน IV site ทุก 48-72 ชม<br />
+    -USFDA Preg Cat B</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Ciprofloxacin</span><span class=""><br />
+  (Ciprobay,cifloxin)<br />
+  400mg, 200 mg</span></td>
+    <td align="left" valign="top"><span class="">-Antibiotic ,Quinolone<br />
+      200 - 400 mg วันละ 2 ครั้ง<br />
+      ขนาดยาขึ้นกับความรุนแรงของโรค<br />
+    IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">NSS,RINGER<br />
+    ,D5W,D10W</span></td>
+    <td align="left" valign="top"><span class="">เจือจางให้มีความเข้มข้น 1-2 mg/ml</span></td>
+    <td align="left" valign="top"><span class="">IV Infusion ช้า ๆ ภายใน 60 นาที</span></td>
+    <td align="left" valign="top"><span class="">-หลังเจือจางยาเก็บในตู้เย็นและที่อุณหภูมิห้อง (25 องศา) ได้ 2 สัปดาห์<br />
+    - USFDA Preg Cat C</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Chloramphenicol</span></td>
+    <td align="left" valign="top"><span class="">-Antibiotic,anaerobic<br />
+      50-100 mg/kg แบ่งให้ทุก 6ชม ไม่<br />
+      เกิน 4g/day<br />
+    Direct IV,IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">D5W,<br />
+      D10W,<br />
+      D5S/2,<br />
+    D5S/4,RINGER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>Direct IV :</strong></span><span class="">1 g ในน้ำกลั่น 10 ml<br />
+  </span><span class="normal11black_u"><strong><br />
+  Infusion :</strong></span><span class=""> ในสารละลายที่ใช้ได้อย่างน้อย 50 - 100 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>Direct IV :</strong></span><span class=""> 1 นาที<br />
+      <br />
+  </span><span class="normal11black_u"><strong>Infusion :</strong></span><span class=""> 30 - 60 นาที</span></td>
+    <td align="left" valign="top"><span class="">-หลังเจือจางแล้วคงตัว 24ชมที่อุณหภูมิห้องและ 7 วันในตู้เย็น ,ห้ามให้ทางIM<br />
+      -ควรปรับขนาดในผู้ป่วยโรคตับไต<br />
+      -ควรตรวจ CBC,LFT,Kidney function test –ข-<br />
+    USFDA Preg CatC</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Chlorpheniramine</span><span class=""><br />
+  10 mg/ml</span></td>
+    <td align="left" valign="top"><span class="">-antihistamine10-20 mg ไม่เกิน 40 mg/day IM,SC,IV</span></td>
+    <td align="center" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class="">ไม่ต้องเจือจาง</span></td>
+    <td align="left" valign="top"><span class="">ช้า ๆ</span></td>
+    <td align="left" valign="top"><span class="">ไม่แนะนำให้ทาง Intraderrmal<br />
+    - USFDA Preg CatB</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Cloxacliin</span><span class=""><br />
+  1 g</span></td>
+    <td align="left" valign="top"><span class="">-Antibiotic ,penicillin 500 mg - 1 g ทุก 6 ชม<br />
+    IM.Direct IV ,IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">D5W,<br />
+      D5S,<br />
+    NSS(0.9%NaCl)</span></td>
+    <td align="left" valign="top"><span class="">IM : 250 mg ในน้ำกลั่น 1.5<br />
+      ml<br />
+      Direct IV : 500 mg ในน้ำ<br />
+      กลั่น 8-10 ml<br />
+      Infusion : ในสารละลายที่<br />
+    ใช้ได้อย่างน้อย 100 ml</span></td>
+    <td align="left" valign="top"><span class="">Direct IV: 3 - 4นาที<br />
+    Infusion: 1-3 ชั่วโมง</span></td>
+    <td align="left" valign="top"><span class="">- หลังละลายแล้วคงตัว 24 ชั่วโมงในตู้เย็น<br />
+      - หลังเจือจางแล้วคงตัว 4 วันในตู้เย็น<br />
+      - ควรให้ทางIV infusion ช้าๆ ลดอาการปวด<br />
+      และป้องกันการเกิด phlebitis<br />
+    - USFDA Preg Cat B</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Cotrimoxazole<br />
+      (Sulfamethoxazole<br />
+      + Trimethoprim)</span><span class=""><br />
+    400 + 80 mg/ml</span></td>
+    <td align="left" valign="top"><span class="">-Antibiotic<br />
+      PCP: 12.5 - 20 mg/kg/day ของ TMP แบ่งให้วันละ 3 - 4 ครั้ง<br />
+      <br />
+      ติดเชื้ออื่น ๆ : 160 mg TMP/800<br />
+    mg SMX ทุก 12 ชม. IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5W,D10W,<br />
+    RINGER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>เจือจาง: </strong></span><span class="">1 amp ในสารละลายที่ใช้ได้อย่างน้อย 125 ml อาจใช้เพียง 75 ml ได้ในรายที่ต้องจำกัดปริมาณน้ำ</span></td>
+    <td align="left" valign="top"><span class="">ไม่เกิน 1 ชั่วโมงครึ่ง</span></td>
+    <td align="left" valign="top"><span class="">- หลังเจือจางแล้วแล้วควรใช้ภายใน 6 ชั่วโมง ถ้าให้ D5W มีความคงตัว 24 ชม<br />
+      - ความเข้มข้นสูงสุดที่ละลายได้คือ 2 amp ต่อสารละลาย 100 ml ควรใช้ภายใน 2 ชม<br />
+      - ไม่แนะนำให้ทาง Direct IV ควรเช็ค CBC,LFT,renal function test,urinalysis USFDA Preg Cat C,D at near term</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Cyclophosphamide</span><span class=""><br />
+  1 g</span></td>
+    <td align="left" valign="top"><span class="">-Antineoplastic Agent,Alkylating Agent 30 - 50 mg/kg ต่อการรักษา ใน 1 คอร์ส ( 1 - 5 วัน) สามารถให้ซ้ำได้ในระยะเวลา 2 - 4 สัปดาห์<br />
+    IV Infusion, IV Intermittent</span></td>
+    <td align="center" valign="top"><span class="">NSS</span></td>
+    <td align="left" valign="top"><span class="">ละลายผงยา 1 g ใน<br />
+    สารละลายที่ใช้ 50 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">IV Infusion</span><span class=""> : 20-30 นาที</span></td>
+    <td align="left" valign="top"><span class="">-หลังผสมยาแล้วให้ใช้ภายใน 24 ชม หากเก็บยาในตู้เย็นจะมีอายุ 6 วันหลังจากวันที่ผสม ควรปรับขนาดยาในผู้ป่วยโรคตับและไตใช้ยาอย่างระมัดระวังในผู้ป่วย bone marrow suppresion<br />
+    -USFDA Preg Cat D</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Cyclosporine</span><span class=""><br />
+  (Sandimmune<br />
+  injection 50<br />
+  mg/ml(5ml)</span></td>
+    <td align="left" valign="top"><span class="">-Immunosuppressant agent 5-6 mg/kg single dose 4-12 hr ให้หนึ่งวันก่อนการเปลี่ยนอวัยวะ IV infusion</span></td>
+    <td align="center" valign="top"><span class="">D5W,<br />
+    NSS(0.9%NaCL)</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">IV infusion</span><span class=""> ผสม 1 ml ( 50mg)ใน 20-100 ml D5W หรือ NSSหลังผสมไม่ต้องกันแสง</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">single dose</span><span class=""> 4-12 ชม ก่อนการtransplantation หนึ่งวันจนกระทั่งให้ยารับประทานได้</span></td>
+    <td align="left" valign="top"><span class="">-ยาฉีดเก็บที่อุณหภูมิห้องห้ามแช่เย็นเก็บป้องกันแสงยาฉีดหลังผสมที่t=25 เก็บในถุงพลาสติกPVCได้นาน 6ชมในภาชนะแก้วนาน24ชม<br />
+    - USFDA Preg Cat C, IVdose=1/3 PO dose</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3"><a name="D" id="D"></a>Dexamethasone</span><span class=""><br />
+  4 mg/ml</span></td>
+    <td align="left" valign="top"><span class="">-Coticosteroid,Antinflammatory Dosage variable<br />
+    IM, Direct IV, Infusion</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5W</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">IM, Direct IV</span><span class=""> : ไม่ต้องเจือจาง<br />
+      <br />
+      </span><span class="normal11black_u">Infusion :</span><span class=""> เจือจางในสารละลายที่ใช้ได้</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">&lt; 20 mg</span><span class=""> : &gt; 1 - 3 นาที<br />
+      <br />
+</span><span class="normal11black_u">&gt; 20 mg</span><span class=""> : 7.5 นาที<br />
+</span><span class="normal11black_u"><br />
+Infusion</span><span class=""> : ให้ตามแพทย์สั่ง</span></td>
+    <td align="left" valign="top"><span class="">- หลังจากเจือจางแล้วใช้ภายใน 24 ชม นิยมให้ทาง IMในรูปแบบของ Acetate injection ไมให้ทาง IV .use<br />
+    - USFDA Preg Cat C,Din 1 st trimester</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Diazepam (Valium)</span><span class=""><br />
+  10 mg/2ml</span></td>
+    <td align="left" valign="top"><span class="">-Antianxiety,Benzodiazipine Dosage variable 2-20 mg ทุก 8 ชม IM,Direct IV, Infusion<br />
+      <br />
+    Max conc =5mg/ml</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5W</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">IM Direct IV :</span><span class=""> ไม่ต้องเจือจาง<br />
+      <br />
+  </span><span class="normal11black_u">Infusion :</span><span class=""> เจือจางในอัตรา &gt; 1:40 v/v ถ้าน้อยกว่านี้จะตกตะกอนทันที</span></td>
+    <td align="left" valign="top"><span class="">2-5 mg /นาที ถ้าให้เร็วทำให้เกิด apnea hypotension, bradycardia หรือ cadiac arrest</span></td>
+    <td align="left" valign="top"><span class="">-ขนาดให้แต่ละครั้งไม่ควรเกิน 30 mg<br />
+      -ห้ามผสมรวมกับยาอื่น ๆ เพราะจะทำให้ตกตะกอน-เจือจาง 1:40 v/v จะมีความคงตัว 6 ชม ถ้าเจือจาง &gt; 1:50 คงตัว 24 ชม<br />
+      -ไม่นิยมให้ Infusion เนื่องจากอาจเกิดการตกตะกอนและการดูดซับยาจากถุงยาได้<br />
+    - USFDA Preg Cat D</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Diclofenac</span><span class=""><br />
+  (Voltaren)<br />
+  75 mg/3 ml</span></td>
+    <td align="left" valign="top"><span class="">-Analgesic,NSAIDs 50-150 mg / day <br />
+    IM</span></td>
+    <td align="center" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class="">ไม่ต้องเจือจาง</span></td>
+    <td align="left" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class="">-แนะนำให้ทางกล้ามเนื้อสะโพกลึก ๆ<br />
+      - USFDA Preg Cat B:D in 3rd Trimester or near delivery</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Digoxin (Lanoxin)</span><span class=""><br />
+  0.5 mg/2 ml<br />
+  Antiarrthymic agent</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Intial</span><span class=""> : 0.25 - 0.5 mg<br />
+      <br />
+  </span><span class="normal11black_u">Maintenance</span><span class=""> : 0.125- 0.25<br />
+  mg/day/kgให้ IM(มักปวด), <br />
+  Direct IV</span></td>
+    <td align="center" valign="top"><span class="">D5W,NSS</span></td>
+    <td align="left" valign="top"><span class="">ไม่ต้องเจือจางหรือเจือจาง 1 ml ในน้ำกลั่นหรือสารละลายที่ใช้ได้ 4 ml</span></td>
+    <td align="left" valign="top"><span class="">อย่างน้อย 5 นาที ให้ผ่าน 3-way หรือ Y - site</span></td>
+    <td align="left" valign="top"><span class="">-เมื่อเจือจางแล้วควรใช้ทันทีใช้สารละลายเกิน 4 เท่าตัวยาจะตกตะกอน</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Dimenhydrinat</span><span class=""><br />
+  </span><span class="style3">(Divomit)</span><span class=""><br />
+  50 mg/ 2 ml</span></td>
+    <td align="left" valign="top"><span class="">-Antiemetics<br />
+      50-100 mg ทุก 4 ชม<br />
+    IM,Direct IV</span></td>
+    <td align="center" valign="top"><span class="">D5W,NSS,RINGER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u"><strong>Direct IV</strong></span><span class=""> : ละลาย 50 mg ในสารละลายที่ใช้ได้ 10 ml</span></td>
+    <td align="left" valign="top"><span class="">ภายใน 2 นาที</span></td>
+    <td align="left" valign="top"><span class="">-คงตัว 10 วันที่อุณหภูมิห้อง<br />
+    - USFDA Preg Cat B</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Diphenhydramine</span><span class=""><br />
+  (Benadryl)<br />
+  50 mg/ml</span></td>
+    <td align="left" valign="top"><span class="">-Antidote,Antihistamine10 - 50 mg ทุก 2-4 ชม ไม่เกิน400 mg/วัน IM,IV<br />
+    Infusion, Intermittent IV</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5W,D10WNS<br />
+    S/2,NSS,RINGER %</span></td>
+    <td align="left" valign="top"><span class="">เจือจางในสารละลายที่ใช้ได้ในความเข้มข้น 100 mg/L</span></td>
+    <td align="left" valign="top"><span class="">Direct IV : 25 mg อย่างน้อย 1 นาที</span></td>
+    <td align="left" valign="top"><span class="">-สังเกตอาการแพ้ เช่น ผื่นคัน,ลมพิษ,หายใจทันที่ติดขัด,ความดันต่ำและให้การช่วย<br />
+    - USFDA Preg Cat B</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Dobutamine</span><span class=""><br />
+  (Dobutrex)<br />
+  250 mg/5ml</span></td>
+    <td align="left" valign="top"><span class="">-Sympathomimetic agents 2.5 - 10 mcg/kg/min<br />
+    IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">D5W,D5S/2,D<br />
+      5S,<br />
+    NSS,RINGER</span></td>
+    <td align="left" valign="top"><span class="">ละลาย 250 mg ในน้ำกลั่น 10 -20 ml แล้วเจือจางในสารละลายที่ใช้ได้ 50 ml</span></td>
+    <td align="left" valign="top"><span class="">เริ่มต้น 0.5-1 mcg/kg/min แล้วปรับตามการตอบสนองของผู้ป่วย</span></td>
+    <td align="left" valign="top"><span class="">-หลังละลายแล้วคงตัว 24 ชั่วโมง Monitor BP,EKG,heart rate,CVP,RAP,MAP,urine output etc<br />
+    - USFDA Preg Cat B.</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Dopamine</span><span class=""><br />
+  250 mg/10 ml</span></td>
+    <td align="left" valign="top"><span class="">-Sympathomimetic agents<br />
+      Initial : 2 - 10 mcg/kg/min เพิ่มทีละ 5 ทุก 10 - 30 นาที<br />
+      <br />
+    </span><span class="normal11black_u">      Average dose</span><span class="">: 20 mcg/kg/min<br />
+    IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">D5W,D5S/2,D<br />
+      5s,NSS,RING<br />
+    ER</span></td>
+    <td align="left" valign="top"><span class="">ละลาย 200 - 400 mg ในสารละลายที่ใช้ได้ 250 -500 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Shock:</span><span class=""> ให้เริ่มต้น 2-5 mcg/kg/min แล้วปรับตามการตอบสนองของผู้ป่วย<br />
+        <br />
+    </span><span class="normal11black_u">      CHF </span><span class="">:ให้เริ่มต้น 0.5-2 mcg/kg/min แล้วปรับตามการตอบสนองของผู้ป่วย</span></td>
+    <td align="left" valign="top"><span class="">-หลังละลายแล้วคงตัว 24 ชั่วโมงที่อุณหภูมิห้อง ไม่แนะนำให้ใช้ใน dose&gt;50mcg/kg/min<br />
+      -Monitor BP,EKG,heartrate,CVP,RAP,MAP,urine output etc<br />
+    - USFDA Preg Cat C</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3"><a name="E" id="E"></a>Ephedrine</span><span class=""><br />
+  (Adrenalline)<br />
+  30 mg/ml<br />
+  1mg/ml</span></td>
+    <td align="left" valign="top"><span class="">-Sympathomimetic agents<br />
+      10-25 mg up to 150 mg/day ถ้า IM,SC : 25 - 50 mg<br />
+    Direct IV</span></td>
+    <td align="center" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class="">ไม่ต้องเจือจางอาจให้ผ่าน Y - tube หรือ three way stopcock</span></td>
+    <td align="left" valign="top"><span class="">10 mg/ นาที</span></td>
+    <td align="left" valign="top"><span class="">-หากสารละลายขุ่นหรือมีตะกอนไม่ควรนำมาใช้ยาควรเก็บในตู้เย็นตลอดเวลาที่ 4-8 ( C ) <br />
+      -Monitor pulmonary function,BP,HR etc<br />
+    - USFDA Preg Cat B</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Epoetin Alfa</span><span class=""> (Eprex)<br />
+  3,000 U<br />
+  4,000 U</span></td>
+    <td align="left" valign="top"><span class="">-Colony –Stimulating Factor 50-100 u/kg 3 time/wk<br />
+    Direct IV ,SC</span></td>
+    <td align="center" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class="">ไม่ต้องเจือจาง</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : 1 นาที</span></td>
+    <td align="left" valign="top"><span class="">-หากภาชนะ single dose ( 1 ml) คงตัว 2 อาทิตย์ที่อุณหภูมิห้อง และ multiple dose (2 ml) คงตัว 1 อาทิตย์ที่อุณหภูมิห้อง<br />
+    USFDA Preg Cat C</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Estrogen<br />
+      Conjugated</span><span class=""><br />
+    25 mg/5ml</span></td>
+    <td align="left" valign="top"><span class="">-Estrogen derivatives ขึ้นกับข้อบ่งใช้ของโรคนั้น ๆ<br />
+    IV,IM</span></td>
+    <td align="center" valign="top"><span class="">Sterile diluent,<br />
+      WFI,NSS,Dext<br />
+    rose</span></td>
+    <td align="left" valign="top"><span class="">ละลายผงยาในสารละลายที่ใช้ได้ เขย่าผสมกันเบา ห้ามเขย่าแรง</span></td>
+    <td align="left" valign="top"><span class="">IV Direct ฉีดช้า ๆ</span></td>
+    <td align="left" valign="top"><span class="">-หากฉีดทาง IV ควรฉีดช้า ๆ เพื่อป้องกันการเกิด Flushingห้ามใช้ในผู้ป่วยที่แพ้ยา<br />
+    - USFDA Preg Cat X</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3"><a name="F" id="F"></a>5- Fluorouracil</span><span class=""><br />
+  (5 - FU)<br />
+  250 mg/5ml</span></td>
+    <td align="left" valign="top"><span class="">-Antineoplastic agent12 mg/kg/day for 4 วันตามด้วย 6 mg/kg/day อีก 4 วัน Direct IV,Intermittent IV</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5W</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : ไม่ต้องเจือจางหรือเจือจางสารละลายที่ใช้ได้ (ให้ผ่านสาย IV เพื่อลดความเจ็บปวด Infusion : เจือจาง</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : 1 - 2 นาที<br />
+      <br />
+  </span><span class="normal11black_u">Intermittent IV</span><span class=""> : 2- 8 ชม ถ้าให้เร็วจะทำให้เกิดพิษ</span></td>
+    <td align="left" valign="top"><span class="">-เจือจางแล้วคงตัว 24 ชั่วโมงที่ =Tห้องผสมยาตามแนวทางการเตรียมยาเคมีบำบัดใน Biohazard larminar flowที่ได้มาตรฐานเพราะจะเกิดอันตราย X</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Furosemide (Lasix)</span><span class=""><br />
+  20mg/2ml<br />
+  250</span></td>
+    <td align="left" valign="top"><span class="">-Diuretic,Loop 20 - 40 mg เพิ่มด้วยขนาดนี้ ทุก 2 ชม ถ้า no respond<br />
+    IM.Direct IV</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5S,D5W,D10W<br />
+    ,RINGER,3 % NaCI</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV,IM</span><span class=""> : ไม่ต้องเจือจาง<br />
+        <br />
+      </span><span class="normal11black_u">Infusion</span><span class=""> : เจือจางด้วยสารละลายที่ใช้ได้</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV </span><span class="">: 20 mg/1-2นาที<br />
+      <br />
+  </span><span class="normal11black_u">Infusion</span><span class=""> : 4 mg / นาที</span></td>
+    <td align="left" valign="top"><span class="">-เมื่อเจือจางแล้วควรใช้ภายใน 24 ชมหากสารละลายกลายเป็นสีเหลืองให้ทิ้งทันที ถ้าใส่ตู้เย็นจะตกตะกอนนำมาทิ้งไว้ที่อุณหภูมิห้องแล้วนำกลับมาใช้ได้อีก<br />
+      - USFDA Preg Cat C,D if used in preg induced hypertension</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3"><a name="G" id="G"></a>Gentamicin</span><span class=""><br />
+  80 mg/2ml</span></td>
+    <td align="left" valign="top"><span class="">-Antibiotic ,Aminoglycoside<br />
+      3-5 mg/kg แบ่งให้ทุก 8 ชม หรือ 7 mg/kg/day วันละ 1 ครั้ง<br />
+    IM,IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5W,RINGER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Infusion</span><span class=""> : 1 amp ในสารละลายที่ใช้ได้อย่างน้อย50-200 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Infusion</span><span class=""> : 1 amp ในสารละลายที่ใช้ได้อย่างน้อย 50-200 ml</span></td>
+    <td align="left" valign="top"><span class="">-เมื่อเจือจางแล้วมีสีใสหรือแล้วควรใช้ภายใน 24 ชมที่อุณหภูมิห้องห้ามใส่ในตู้เย็น<br />
+      -การให้เร็วเกินไปในขนาด &gt; 100 mg จะทำให้ hearing loss ได้ USFDA Preg Cat C</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3"><a name="H" id="H"></a>Haloperidol</span><span class=""><br />
+  (Haldol)<br />
+  5 mg/ml</span></td>
+    <td align="left" valign="top"><span class="">-Antipsychotic agent,sedative 2-5 mg ทุก 4-6 ชม<br />
+    IM,Direct IV,IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5W</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : ไม่ต้องเจือจาง<br />
+      <br />
+  </span><span class="normal11black_u">Infusion</span><span class=""> : เจือจางต่อในสารละลายที่ใช้ได้</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : 5 mg/นาที<br />
+      <br />
+  </span><span class="normal11black_u">IV Infusion</span><span class=""> : อย่างน้อย 30 นาที</span></td>
+    <td align="left" valign="top"><span class="">-เมื่อเจือจางแล้วคงตัว 24 ชั่วโมงที่อุณหภูมิ  ห้องใส่ในภาชนะป้องกันแสง<br />
+    - USFDA Preg Cat C</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Haloperidol<br />
+      Decanoate</span><span class=""> (Haldol<br />
+      decanoas)<br />
+    50 mg/ml</span></td>
+    <td align="left" valign="top"><span class="">แล้วแต่ condition<br />
+      </span><span class="normal11black_u">mild </span><span class="">: 50-100 mg/4 wk<br />
+      </span><span class="normal11black_u">moderate</span><span class=""> : 150 - 200 mg/4wk<br />
+      </span><span class="normal11black_u">severe</span><span class=""> : 250 - 300 / 4wk<br />
+      IM เท่านั้น</span></td>
+    <td align="center" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class="">- USFDA Preg Cat C</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Haloperidol<br />
+      Decamoate</span><span class=""> (Haldol<br />
+      Decanoas)<br />
+    50 mg/ml</span></td>
+    <td align="left" valign="top"><span class="">Initial 80 u/kg ตามด้วย 15 u/kg/hr<br />
+      Direct IV ,Intermittent IV,<br />
+    IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5S,RINGER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : ไม่ต้องเจือจาง<br />
+      <br />
+  </span><span class="normal11black_u">Infusion</span><span class=""> : เจือจางในสารละลายที่ใช้ได้อย่างน้อย 50-100 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : 1 นาที<br />
+      <br />
+  </span><span class="normal11black_u">IV Infusion</span><span class=""> : 4-24 ชั่วโมง</span></td>
+    <td align="left" valign="top"><span class="">-หลังเจือจางแล้วคงตัว 24 ชั่วโมง heparin lock ควร Flush ทุก 6-8 ชั่วโมง ด้วย 0.5 ml ของสารละลายที่เตรียมได้จาก heparin 0.5 ml + สารละลายที่ใช้ได้ 19.5 ml (125 unit/ml)(NSS,5DW)</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Hydrocortlsone<br />
+      Sodium succinate</span><span class=""><br />
+      (Solu-Cortef)<br />
+    100 mg</span></td>
+    <td align="left" valign="top"><span class="">-Glucocorticoid,<br />
+      Mineralocorticoid Dosage variable Shock:50 mg/kg ทุก 4-24 ชม.<br />
+    IM,Direct IV,IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">D5S/2,D5S,NSS,<br />
+      D5W,D10W,RIN<br />
+    GER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV,IM</span><span class=""> : ละลายด้วยน้ำกลั่น ,NSS 2 ml<br />
+        <br />
+    </span><span class="normal11black_u">      IV Infusion</span><span class=""> : เจือจางด้วยสารละลายที่ใช้ได้ 50-100 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">IM ,Direct IV</span><span class=""> : 100 mg/0.5<br />
+  นาที</span></td>
+    <td align="left" valign="top"><span class="">-เมื่อละลายและเจือจางแล้วคงตัว 24 ชั่วโมง<br />
+      -Monitor,Serum glucose,BP,Weight,electrolytes<br />
+    - USFDA Preg CatC: Din first trimester</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Hyoscine-NButylbromide</span><span class=""><br />
+  (Kanin injection)<br />
+  20 mg/ml</span></td>
+    <td align="left" valign="top"><span class="">-Antispasmodic Agent<br />
+      SC/IM/slow IV 1-2 amp,<br />
+    Max : 5 amp daily</span></td>
+    <td align="center" valign="top"><span class="">Sterile water for<br />
+    Injection (SWFI)</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV :</span><span class=""> เจือจางด้วย SWFI 3-5 ml</span></td>
+    <td align="left" valign="top"><span class="">Direct IV ให้ช้า ใน 1 นาที</span></td>
+    <td align="left" valign="top"><span class="">-ระวังการใช้ในผู้ป่วยโรคหัวใจจะทำให้เกิด Tachycardia ถ้าเป็นยาเม็ดแบบrelease formห้ามบดหรือเคี้ยว<br />
+    - USFDA Preg CatC</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3"><a name="I" id="I"></a>Imipenem<br />
+      + Clastatin</span><span class=""><br />
+      (Tlenam)<br />
+    500 mg + 500 mg</span></td>
+    <td align="left" valign="top"><span class="">-Antibiotic ,Carbapenam<br />
+      250 mg - 1 g ทุก 6-8 ชม. ขึ้นกับความรุนแรงของการติดเชื้อ<br />
+    Intermittent IV</span></td>
+    <td align="center" valign="top"><span class="">D5W,D10W,NSS,<br />
+    Ringer,NSS/2</span></td>
+    <td align="left" valign="top"><span class="">ละลายกับสารละลายที่ใช้ได้ 10 ml แล้วเจือจางต่ออย่างน้อย 100 ml</span></td>
+    <td align="left" valign="top"><span class="">500 mg ใน 20-30 นาที</span></td>
+    <td align="left" valign="top"><span class="">หากผู้ป่วยเกิดคลื่นไส้อาเจียนควรลดอัตราเร็วในการให้ลง ระวังanaphylaxisในfirst dose หลังละลายแล้วด้วยสารละลายที่ใช้ได้ คงตัว 4<br />
+      ชมที่อุณหภูมิห้องและ 24ชมที่อุณหภูมิ 4 c (ยกเว้นใช้NSSอยู่นานขึ้น10 ชม ๐t ห้องและ 48 ชมที่4 ) USFDA Preg CatC</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Insulin,regular (RI)</span><span class=""><br />
+  100 u/ml 10 ml</span></td>
+    <td align="left" valign="top"><span class="">-Antidiabetic agent<br />
+      Dose จะปรับตามระดับน้ำตาลในเลือด<br />
+    IM,SC,Direct IV,Infusion</span></td>
+    <td align="center" valign="top"><span class="">0.45 %<br />
+    NaCI,NSS</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : ไม่ต้องเจือจางฉีดเข้าทาง three way<br />
+    </span><span class="normal11black_u">      IV Infusion</span><span class=""> :<br />
+      เจือจางในสารละลายที่ใช้ได้ให้ได้ 100 u/100ml</span></td>
+    <td align="left" valign="top"><span class="">50 ยูนิต/นาที</span></td>
+    <td align="left" valign="top"><span class="">-ยารุ่นใหม่ๆสามารถเก็บที่= tห้องนาน 1 เดือน หรือมากกว่า24-30 เดือนโดย t ไม่เกิน 37 c การให้เข้า IV จะใช้ได้เฉพาะ Regular insulin เท่านั้นCatC ยกเว้น lispro cat B</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">etamine</span><span class=""><br />
+        <a name="K" id="K"></a>(ketalar)<br />
+  50 mg/ml<br />
+  in 10 ml vial</span></td>
+    <td align="left" valign="top"><span class="">-General anethetic<br />
+      </span><span class="normal11black_u">IV</span><span class=""> : 1-4.5 mg/kg มักใช้ 1-2 mg/kg<br />
+      <br />
+</span><span class="normal11black_u">IM</span><span class=""> : 3-8 mg/kg</span></td>
+    <td align="center" valign="top"><span class="">D5W,NSS,SWFI</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : เจือจางให้ได้1 mg/ml<br />
+    </span><span class="normal11black_u">      <br />
+    Infusion :</span><span class=""> เจือจางในสารละลายที่ใช้ได้ 500 ml <br />
+    mg/min หรือ0.1-0.5 mg/min</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : ให้ช้า ๆ อย่างน้อย 1 นาที Infusion: induction0.5 mg/kg/min<br />
+      <br />
+    </span><span class="normal11black_u">    Maintenance</span><span class=""> :1-2</span></td>
+    <td align="left" valign="top"><span class="">-เก็บยาให้พ้นแสงห้ามใช้หากยาเกิดตกตะกอน<br />
+      -ไม่เข้ากันกับ Barbiturate หรือ diazepam จะตกตะกอน USFDA Preg CatB</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3"><a name="L" id="L"></a>Lidocain</span><span class=""><br />
+  1%50ml<br />
+  2% 50ml</span></td>
+    <td align="left" valign="top"><span class="">-Local anesthetic,Antiarrthymic agent <br />
+      1-1.5 mg/kg สูงสุด 3 mg/kg ใน 1 ชม<br />
+    IM,Direct IV, Intermittent IV</span></td>
+    <td align="center" valign="top"><span class="">D5W,D5S/2,0.45%<br />
+    NaCI,NSS,RINGER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">IM, Direct IV</span><span class=""> : เข้มข้น 1%,2% ไม่ต้องเจือจาง<br />
+  <br />
+  </span><span class="normal11black_u">Intermittent IV</span><span class=""> : 1g ในสารละลายที่ใช้ได้อย่างน้อย 250 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">IM,Direct IV</span><span class=""> : 25 - 50 นาที ถ้าให้เร็วเกินไปจะทำให้ชักได้<br />
+      <br />
+  </span><span class="normal11black_u">Intermittent IV</span><span class=""> : 1-4 mg/นาที</span></td>
+    <td align="left" valign="top"><span class="">-เมื่อเจือจางแล้วคงตัว 24 ชม.<br />
+      -คนไข้ที่ใช้IV infusionนานๆระวังการเกิด thrombophlebitis<br />
+    -Cat B :As LA&amp; cardiac drug</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Lincomycin</span><span class=""><br />
+  (Lingo)<br />
+  600mg/2 ml</span></td>
+    <td align="left" valign="top"><span class="">-Antibiotic<br />
+      1-2 g/day ไม่เกิน 8 g/day<br />
+    IM, IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">D5S,D10S,D5W,D10<br />
+    W,RINGER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">เจือจาง </span><span class="">: 1 amp ในสารละลายที่ใช้ได้อย่างน้อย 250 ml</span></td>
+    <td align="left" valign="top"><span class="">1 ชั่วโมง</span></td>
+    <td align="left" valign="top"><span class="">- หลังเจือจางแล้วควรใช้ภายใน 24 ชั่วโมงที่อุณหภูมิห้อง<br />
+    - USFDA Preg CatB</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3"><a name="M" id="M"></a>Magnesium sulfate</span><span class=""><br />
+  10% 10 ml<br />
+  50% 2 ml</span></td>
+    <td align="left" valign="top"><span class="">-management eclampsia or preeclampsia <br />
+      1-4 g IV infusion ตามด้วย 4 หรือ 5 gm IMทุก 4 ชม<br />
+      Or1-4 gIV ตามด้วย 1-2 g/ชมIV<br />
+      infusion<br />
+    Direct IV,IV Infusion ,IM</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5W,RINGER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : เข้มข้น 10% ไม่ต้องเจือจาง<br />
+  </span><br />
+  <span class="normal11black_u">Intermittent IV</span><span class=""> : กันชัก<br /> 
+  -เจือจาง 4 g ในสารละลายที่ใช้ได้ 250 ml เสริม mg <br />
+  - เจือจาง 5 g ในสารละลายที่ใช้ได้ 1000 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : ใช้ในขนาด conc.20%(200mg/ml)ห้ามให้เกินขนาด1.5 mlของ 10%Mgso4 ต่อนาฑี(150 mg/นาฑี)<br />
+  Maximum rate of infusion:2gm/ชมป้องกัน<br />
+  hypotension</span></td>
+    <td align="left" valign="top"><span class="">-เก็บที่อุณหภูมิห้อง อุณหภูมิไม่เกิน 40C ห้ามใส่ในตู้เย็นจะตกตะกอน ห้ามผสมรวมกับ fat emulsion,calcium gluceptate,clindamycin,tolbutamine,hydrocortisone(same syringe),nafcillin,polymixin B,pracain hydrochloride, tetracyclines, thiopental monitor:BP,serum Mg(ป้องกันoverdose),<br />
+    ,diarrhea,arrthymias,hypotension,CNS Cat B</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Meropenem</span><span class=""><br />
+  1 g</span></td>
+    <td align="left" valign="top"><span class="">-Antibiotic ,Carbapenem <br />
+      500 mg - 2 g ทุก 8 ชม. ตามความรุนแรงของโรค<br />
+    Direct IV,IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5W,D10W,D5S<br />
+    ,Ringer</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : ละลายด้วย SWFI ให้ความเข้มข้น 50 mg/ml<br />
+      <br />
+  </span><span class="normal11black_u">IV Infusion</span><span class=""> : ละลายในสารละลายที่ใช้ได้ 50 - 200 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : 3-5 นาที (ปริมาณ 5-20 ml)<br />
+  </span><br />
+  <span class="normal11black_u">Infusion</span><span class=""> : 15- 30 นาที</span></td>
+    <td align="left" valign="top"><span class="">-สารละลายที่ใช้สำหรับ Direct IV คงตัว 2 ชมที่อุณหภูมิห้อง และ 12 ชม เมื่อใส่ในตูเย็นเย็น<br />
+      -หากสารละลายที่ใช้ Infusion เป็น D5W มีความคงตัวต่ำ คืออุณหภูมิห้อง 1 ชม และ 6 ชม เมื่อเก็บในตู้เย็น ถ้าเป็น NSS จะมีความคงตัวที่อุณหภูมิห้อง 4 ชม และในตู้เย็น 24 ชม Cat B</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Methotrexate</span><span class=""><br />
+  50 mg<br />
+  (Abitrexate)</span></td>
+    <td align="left" valign="top"><span class="">-Antineoplastic agent<br />
+      Infusion,Intrathecal Direct IV<br />
+      .IV=range is wide from 30-40 mg/m2/week to 100-12,000mg/m2with leucoverin<br />
+    IM,IV Direct,IV Intermittent,IV</span></td>
+    <td align="center" valign="top"><span class="">D5W,NSS<br />
+      SWFI(sterile<br />
+      water for<br />
+    injection)</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Infusion</span><span class=""> : 1 vial(5o mg/ml) ผสมน้ำกลั่น 2 - 25 ml ให้ความเข้มข้นไม่เกิน 25 mg/ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : 10 mg/min ผ่าน Ysite หรือ 3-way<br />
+      <br />
+  </span><span class="normal11black_u">Infusion</span><span class=""> : 4-20 ชม</span></td>
+    <td align="left" valign="top"><span class="">- สารละลายที่ใช้ไม่หมดให้ทิ้งทันทีเตรียมสารละลายด้วยวิธีตามการเตรียมยาเคมีบำบัดใน<br />
+      bioharzard larminarflow<br />
+      - Monitor:CBC,WBC,platelet ount,LFT,chest X-rayลดขนาดยาถ้า ปวดหัว คลื่นไส้ อาเจียน<br />
+    - USFDA Preg Cat X</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Methylpredniso</span><span class=""><br />
+  lone (Sodium<br />
+  succinate)<br />
+  (Solu - Medrol)<br />
+  1000 mg(1gm/16ml)</span></td>
+    <td align="left" valign="top"><span class="">-Corticosteroid system<br />
+      </span><span class="normal11black_u">Shock</span><span class=""> : 30 mg/kg over 15 mins<br />
+      </span><span class="normal11black_u">Immunosuppressant</span><span class=""> : 0.5 - 2 g ทุก 1 - 2 วัน<br />
+      IM,Direct IV,IV Infusiion</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5S,<br />
+    D5W</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">IM Direct IV</span><span class=""> : ละลายด้วยตัวทำละลายที่ให้มาหรือ bacteriostatic water 2 ml<br />
+  </span><br />
+  <span class="normal11black_u">IV Infusion</span><span class=""> : เจือจางด้วย<br />
+  สารละลายที่ใข้ได้</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">IM Direct IV</span><span class=""> : อย่างน้อย 1 นาที<br />
+      <br />
+  </span><span class="normal11black_u">Infusion</span><span class="">: 125-500 mg:&gt;15-30 นาที<br />
+  500-1000 mg:&gt; 30 นาที<br />
+  500-1000 mg:&gt; 60 นาที</span></td>
+    <td align="left" valign="top"><span class="">-หลังจากละลายและเจือจางแล้วเก็บที่มีการควบคุมอุณหภูมิ ห้องได้นาน 48 ชม ในตู้เย็น<br />
+      ได้นาน 7 วัน<br />
+      -ถ้าขนาดยา &lt; 250 ml จะให้ทาง IM ,Direct IV และ IM จะให้ครั้งละ 5 ml เพื่อลดการระคายเคืองเนื้อเยื่อ<br />
+      - USFDA Preg Cat C</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Metoclopramide</span><span class=""><br />
+  (Plasil)<br />
+  10 mg/2ml</span></td>
+    <td align="left" valign="top"><span class="">-Antiemetic,Gastroprokinetic agent <br />
+      10 mg or 1-2 mg/kg 30 min before chemotherapyand every 2-4 hr .Total (5-10mg/kg)daily<br />
+    IM,Direct IV, Intermittent IV</span></td>
+    <td align="center" valign="top"><span class="">D5W,D5S/2,<br />
+      D5S,<br />
+    RINGER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">IM,Direct IV</span><span class=""> : ไม่ต้องเจือจาง<br />
+      <br />
+  </span><span class="normal11black_u">Intermittent IV</span><span class=""> : ขนาด&gt; 50 mg เจือจางในสารละลายที่ใช้ได้อย่างน้อย 50 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">IM,Direct IV</span><span class=""> : 1-2 นาที เพื่อลดการเกิด restlessness จากการฉีดยาเร็ว<br />
+      <br />
+  </span><span class="normal11black_u">Intermittent IV</span><span class=""> : อย่างน้อย 15</span></td>
+    <td align="left" valign="top"><span class="">-หลังจากเจือจางแล้วเก็บในภาชนะป้องกันแสงคงตัว 48 ชม และ 24 ชมที่ภาวะไม่ได้ป้องกันแสง<br />
+      -ให้ก่อนให้ chemotherrapeutic agent อื่น ครึ่งขั่วโมง- USFDA Preg CatB</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Metronidazole</span><span class=""><br />
+  500 mg/100ml<br />
+  (0.5%100ml )</span></td>
+    <td align="left" valign="top"><span class="">-Antibiotic,Antiamoebic,anaerobic<br />
+      Load 1 g (ถ้าต้องการ) ตามด้วย 500 mg ทุก 8 ชม<br /> 
+      IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5W,<br />
+    RINGER</span></td>
+    <td align="left" valign="top"><span class="">ละลายในน้ำกลั่น,NSS 4.4 ml แล้วเจือจางต่อให้ความ เข้มข้นไม่เกิน 8/ mg/ml</span></td>
+    <td align="left" valign="top"><span class="">Slow infusion แต่ละ single dose อย่างน้อย 1 ชม</span></td>
+    <td align="left" valign="top"><span class="">-หลังเจือจางแล้วควรเก็บให้พ้นแสง หากแช่ในตู้เย็นตัวยาอาจตกผลึกได้ แต่ผลึกนี้จะละลายได้เองเมื่ออุ่นขึ้นและจะสามารถใช้ได้( แนะนำให้เก็บที่ 15-30 องศา ไม่ควรเก็บในตู้เย็น ).ใช้ภายใน 24 ชม- USFDA Preg CatB</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Mitomycin-C</span><span class=""><br />
+  2 mg</span></td>
+    <td align="left" valign="top"><span class="">-Antineoplastic agent,Antibiotic 10-20 mg/m 2ทุก 6-8 weeks<br />
+    Direct IV</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5W,RINGER</span></td>
+    <td align="left" valign="top"><span class="">ผงยา 5 mg ละลายกับน้ำกลั่น 10 ml ให้ผ่าน Y - tube หรือ 3 - way stopcock หรืออาจเจือจางในสารละลายที่ใช้ได้ <br />
+      Flush with 5-10 ml IV<br />
+    solutionก่อนและหลังให้ยา</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : slow 15-10 นาที<br />
+      <br />
+  </span><span class="normal11black_u">Infusion</span><span class=""> : slow 15-30 นาฑี</span></td>
+    <td align="left" valign="top"><span class="">-การเตรียมควรสวมถุงมือ ,mask เสมอ<br />
+      -สารละลายที่ได้คงตัว 14 วันในตู้เย็น 7 วันที่อุณหภูมิห้องป้องกันแสง<br />
+      -หากสารละลายที่ได้เจือจางต่อใน NSS ,Sodium lactate คงตัวได้ 12 และ 24 ชม<br />
+      ตามลำดับที่อุณหภูมิห้อง<br />
+    - USFDA Preg Cat X</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Morphine sulphate</span><span class=""><br />
+  10 mg/ 10ml</span></td>
+    <td align="left" valign="top"><span class="">-Analgesic,Narcotic<br />
+      IV,IM ,SC: 10 mg ทุก 4 ชม (range 5-20mg) IV,SC<br />
+      continuous<br />
+      Infusion : 0.8-10 mg/hr อาจเพิ่มได้ถึง 80 mg /hr<br />
+      Eqidural : 5 mg in lumbar region<br />
+      ถ้ายังไม่ดีขึ้นฉีดอีก 1-2 mg<br />
+      Intrathecal : 0.2 - 1 mg/dose<br />
+    ไม่ควรมีการฉีดซ้ำ</span></td>
+    <td align="center" valign="top"><span class="">Ringer,D5W,D10W,<br />
+      NSS,Dextran,DRinger,<br />
+      D-S,0.45 %<br />
+    NaCI</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : เจือจางด้วยน้ำกลั่น NSS อย่างน้อย 5 ml<br />
+  </span><br />
+  <span class="normal11black_u">Infusion</span><span class=""> : เจือจางต่อด้วยสารละลายที่ใช้ได้ให้ได้ความเข้มข้น 0.1-1mg/ml in D5W</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : 2.5 - 15 mg ฉีดช้า 4-5 นาที<br />
+  </span><br />
+  <span class="normal11black_u">Infusion</span><span class=""> = 0.8 - 10 gm/hr<br />
+  </span><br />
+  <span class="normal11black_u">Maintainance</span><span class=""> : ขนาดยาขึ้นกับอาการ 0.8 - 150 mg/ml</span></td>
+    <td align="left" valign="top"><span class="">- หากยาสลายตัวจะเกิดสีเหลืองหรือน้ำตาล<br />
+      - เก็บให้พ้นแสง<br />
+      - การให้อย่างรวดเร็วอาจทำให้กดการหายใจ ,ความดันโลหิตต่ำได้ และคนไข้อาจจะถึงตายได้<br />
+      -Monitor:pain relief,respiratory and mental status,BP<br />
+      -- USFDA Preg CatC:D if used for prolonged period or in high dose at term</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3"><a name="N" id="N"></a>Nadroparin cal.</span><span class=""><br />
+  (Fraxiparin)<br />
+  3800 iu/0.4 ml</span></td>
+    <td align="left" valign="top"><span class="">-Anticoagulant<br />
+    Dose variable .SC</span></td>
+    <td align="center" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class="">- ฉีดบริเวณหน้าท้องโดยแทงเข็มลงตรงไปที่ชั้น subcutaneous คล้ายการฉีด<br />
+    Insulin- USFDA Preg CatB</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Naloxone</span><span class=""><br />
+  0.4 mg/ml</span></td>
+    <td align="left" valign="top"><span class="">-Antidote morphine<br />
+  Opiate intoxication; <br />
+  birth&lt; 20 kg : 0.1 mg/kg repeat 2-3 min <br />
+  <br />
+  Adults:IV :0.4-2 mg every2 -3 min repeat dose every20-60 min<br />
+    <br />
+    Sc,IM,Direct IV,IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5W</span></td>
+    <td align="left" valign="top"><span class="style3">Direct IV</span><span class=""> : ไม่ต้องเจือจางในราย opiod overdose หรือเจือจางด้วยน้ำกลั่น ,NSS 10 ml ในรายระบบหายใจถูกกด opiod IV<br />
+  </span><br />
+  <span class="style3">Infusion :</span><span class=""> เจือจางด้วยสารละลายที่ใช้ได้</span></td>
+    <td align="left" valign="top"><span class="">- 0.4 mg/ 15 นาที ในราย opiod<br />
+      overdose<br />
+      - 0.5 ml/2 นาทีในรายระบบหายใจถูกกด<br />
+    จาก opiod</span></td>
+    <td align="left" valign="top"><span class="">- การให้เข้า IV จะเป็น route ที่นิยมมากที่สุด<br />
+      - หลังจากละลายแล้วสารละลายมีความคงตัว 24 ชม<br />
+    - USFDA Preg CatB</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Nostigmine</span><span class=""><br />
+  (Prostigmine)<br />
+  12.5 mg/5ml</span></td>
+    <td align="left" valign="top"><span class="">-Acetylcholinesterase inhibitor<br />
+      0.25 -1 mg ทุก 3 - 6 ชม<br />
+    IM,Direct IV</span></td>
+    <td align="center" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class="">ไม่ต้องเจือจาง อาจให้ผ่าน Y-tube หรือ 3 - way<br />
+    stopcock</span></td>
+    <td align="left" valign="top"><span class="">0.5 mg/นาที</span></td>
+    <td align="left" valign="top"><span class="">- หากให้ IV จำเป็นต้องอยู่ภายใต้การดูแลของแพทย์<br />
+      - Moni tor pulse, respiratory rate และ blood pressure เก็บยาได้ 24 ชม- USFDA Preg Cat C:D</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Nitroglycerin</span><span class=""><br />
+  (Glyecryl<br />
+  trinitrate)<br />
+  50 mg/10 ml</span></td>
+    <td align="left" valign="top"><span class="">-Antiangina agent<br />
+      Dosage variable<br />
+    IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5W</span></td>
+    <td align="left" valign="top"><span class="">เจือจางในสารละลายที่ใข้ได้ในความเข้มข้น 50-200 mcg/ml ไม่ควรเกิน 400 mcg/ml</span></td>
+    <td align="left" valign="top"><span class="">เริ่มด้วย 5 mcg/min เพิ่มทีละ 5 ทุก 3 นาทีจนถึง 20 mcg/นาที ถ้าการตอบสนองไม่ดีให้เพิ่มทีละ 10 และ 20 mcg/นาที</span></td>
+    <td align="left" valign="top"><span class="">- หลังเจือจางแล้วคงตัว 48 ชม ที่อุณหภูมิห้องในตู้เย็น 7วัน Tolerance อาจเกิดขึ้นถ้าให้มากกว่า 12-24 ชม<br />
+      - ควรบรรจุในภาชนะแก้วจะถูกดูดซับจาก plastic PVC<br />
+     - USFDA Preg CatC</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Nitroprusside</span><span class=""><br />
+  Sodium<br />
+  50 mg/ml</span></td>
+    <td align="left" valign="top"><span class="">-Antihypertensive,Vasodilator<br />
+      2-3 mg/k/min<br />
+    IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">D5W</span></td>
+    <td align="left" valign="top"><span class="">ละลาย 50 mg ในน้ำกลั่น D5W 2-3 ml แล้วเจือจางใน D5W 250-1000 ml</span></td>
+    <td align="left" valign="top"><span class="">เริ่มด้วย 0.25 mcg/kg/นาที เพิ่มได้ทุก 3 นาที ขนาดสูงสุด 10 mcg/kg/นาที</span></td>
+    <td align="left" valign="top"><span class="">-หลังจากละลายและเจือจางแล้วควรเก็บให้พ้นแสงและใช้ภายใน 24 ชมน้ำยาที่ละลายใหม่จะมี่สีน้ำตาลอ่อน หากเปลี่ยนสีแสดงว่า ยาสลายตัว</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3"><a name="O" id="O"></a>Omeprazole</span><span class=""><br />
+  (Losec,Miracid)<br />
+  40 mg</span></td>
+    <td align="left" valign="top"><span class="">-Proton pump inhibitor<br />
+      40 mg OD เพื่อควบคุม pH - 4 ถ้า severe เริ่ม 80 mgbolus+40 mg ทุก 8-12 ชม จนครบ72 ชม จึงให้ 40 mg OD หรือยากิน IV</span></td>
+    <td align="center" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class="">ละลายด้วยตัวทำละลายที่<br />
+    ให้มา</span></td>
+    <td align="left" valign="top"><span class="">40 mg ใน 3 นาทีหากให้ในอัตราที่เร็วเกินไปอาจ<br />
+      ปวดหรือเกิดหลอดเลือดอักเสบได้</span></td>
+    <td align="left" valign="top"><span class="">- หลังจากละลายแล้วเก็บได้นาน 4 ชม<br />
+      - ให้ช้าๆเพราะอาจจะเกิด Plebitisได้<br />
+    - USFDA Preg Cat C</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Oxytocin</span><span class=""><br />
+  (Syntocinon)<br />
+  10 u/ml</span></td>
+    <td align="left" valign="top"><span class="">-Oxytocic agent<br />
+      10 units<br />
+    IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">D5W,D10W,<br />
+      0.45 NaCI,<br />
+    Dextrose/saline</span></td>
+    <td align="left" valign="top"><span class="">เจือจาง 1 ml (10 unit) ลงในสารละลายที่ใช้ได้.1000ml.ให้มีoxytocin 10<br />
+    milliunits/ml rotate to mix</span></td>
+    <td align="left" valign="top"><span class="">1-2 milliunit/min เพิ่มทุก 15 นาที ขนาดสูงสุด 20 milliunit/min</span></td>
+    <td align="left" valign="top"><span class="">- ควรใช้ infusion pump และ monitor BPอาจเกิด hypotension,cardiac arrththemia uterine rupture เก็บที่ 2-8 Cห้ามแช่แข็งอยู่ได้30วันmonitor :fluid<br />
+    intakeและ output,fetal- USFDA Preg CatX</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3"><a name="P" id="P"></a>Paracetamol</span><span class=""><br />
+  300 mg/2ml</span></td>
+    <td align="left" valign="top"><span class="">-Analgesic<br />
+      300 mg ทุก 6 ชม<br />
+    IM</span></td>
+    <td align="center" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class="">-ถามประวัติการแพ้ยาของผู้ป่วยก่อนฉีด<br />
+    - USFDA Preg CatB</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Pancuronium</span><span class=""><br />
+  Bromide (Pavulon)</span></td>
+    <td align="left" valign="top"><span class="">-Neuromuscular blocker agent<br />
+      0.04-0.1 mg/kg<br />
+    Direct IV,Intermittent IV</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5S,<br />
+      D5W<br />
+    RINGER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : ไม่ต้องเจือจาง<br />
+      <br />
+  </span><span class="normal11black_u">Infusion :</span><span class=""> เจือจางในสารละลายที่ใช้ได้</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : ให้ทุก 20-60 นาทีตามต้องการ<br />
+  </span><br />
+  <span class="normal11black_u">Infusion</span><span class=""> : ตามการตอบสนองของผู้ป่วย</span></td>
+    <td align="left" valign="top"><span class="">- ใส่ในตู้เย็นแต่ที่อุณหภูมิห้องสามารถคงตัวได้นาน 6 เดือน ห้ามผสมรวมกับ diazepam<br />
+      - หลังจากเจือจางแล้วคงตัว 48 ชั่วโมง<br />
+      -Monitor Heart rate,BP,Ventilation status,Cardiac etc. - USFDA Preg CatC</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Penicllin G</span><span class=""><br />
+  Benzathine<br />
+  1,200,000 U</span></td>
+    <td align="left" valign="top"><span class="">1.2-2.4 mu single dose IM</span></td>
+    <td align="center" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class="">1.2 mu ในน้ำกลั่น 3.6 ml</span></td>
+    <td align="left" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class="">- หลังละลายแล้วควรใช้ภายใน 24 ชม<br />
+    - USFDA Preg CatB</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Penicillin G sodium</span><span class=""><br />
+  (Benzyl<br />
+  penicillin,Penicillin<br />
+  G,PGS)<br />
+  1,000,000 U<br />
+  5,000,000 U</span></td>
+    <td align="left" valign="top"><span class="">2- 24 mu/day in divided doses every 4hr<br />
+      (mu=million unit)<br />
+    IM,IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5W</span></td>
+    <td align="left" valign="top"><p><span class="normal11black_u">IM</span><span class=""> : เข้มข้นไม่เกิน 100,000u/ml<br />
+      <br />
+    </span><span class="normal11black_u">ละลาย</span><span class=""> : 1 muและ 5 mu ในน้ำกลั่นหรือสารละลาย ที่ใข้ได้ 50 ml<br />
+        <br />
+    </span><span class="normal11black_u">เจือจาง</span><span class=""> : ในสารละลายที่ใช้ได้ 1,000 ml - 2,000 ml</span></p>
+    </td>
+    <td align="left" valign="top"><span class="normal11black_u">Intermittent IV</span><span class=""> : 1-2 ชม การให้อย่างรวดเร็วหรือมากเกินไปอาจทำให้เกิด<br />
+  ความไม่สมดุลย์ของ electrolyte หรือชักได้ IV<br />
+  </span><br />
+  <span class="normal11black_u">Infusion</span><span class=""> : ตลอด 24 ชั่วโมง</span></td>
+    <td align="left" valign="top"><span class="">-หลังละลายแล้วควรใช้ภายใน 7 วัน ตู้เย็น<br />
+      -หลังเจือจางแล้วควรใข้ภายใน 24 ชม ที่อุณหภูมิห้อง<br />
+      -เปลี่ยนที่ฉีดทุก 48 ชม เพื่อป้องกัน phlebitis<br />
+    - USFDA Preg CatB</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Phenobarbital</span><span class=""><br />
+  (Gardenal)<br />
+  200 mg/ml</span></td>
+    <td align="left" valign="top"><span class="">Epilepsy : lead total 1-2 g<br />
+      Maintenance 1-3 mg/kg/day<br />
+      Hypnotic : 100-325 mg hs<br />
+      Sedative : 30-120 mg/day<br />
+    SC,IM ,Direct IV</span></td>
+    <td align="center" valign="top"><span class="">D5W,D10W<br />
+      ,0.45 %NaCI<br />
+    NSS(0.9%NaCL)</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : ละลายด้วยน้ำกลั่น อย่างน้อย 3 ml</span></td>
+    <td align="left" valign="top"><span class="">60 mg/1นาที การให้อย่างรวดเร็วอาจกดระบบ<br />
+      ทางเดินหายใจได้หลีกเลี่ยงการฉีดเข้าหลอดเลือดแดง</span></td>
+    <td align="left" valign="top"><span class="">- สารละลายที่มีตะกอนไม่ควรใช้ และหากทิ้งไว้ในอากาศ 30 นาทีควรทิ้งไป<br />
+      -Monitor phenobarb serum concentration,mental status,CBC,LFTs,seizure<br />
+    activity- USFDA Preg Cat D</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Phenytoin</span><span class=""><br />
+  (Dilantin)<br />
+  250 mg/ 5ml</span></td>
+    <td align="left" valign="top"><span class="">-Anticonvulsant<br />
+      </span><span class="normal11black_u">Loading :</span><span class=""> 15-20 mg/kg ครั้งเดียวหรือแบ่งให้ตามด้วย 100 mg/dose ทุก 30 นาที ขนาดสูงสุด 1.5g/day<br />
+      <br />
+      </span><span class="normal11black_u">Maintenance :</span><span class=""> 300 mg/day<br />
+      (5-6 mg/kg)แบ่งให้ 3 ครั้ง<br />
+      Direct IV , Intermittent IV</span></td>
+    <td align="center" valign="top"><span class="">NSS</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV </span><span class="">: ไม่ต้องเจือจาง<br />
+      <br />
+  </span><span class="normal11black_u">Infusion : </span><span class="">เจือจางใน NSS ไม่เกิน 50 ml จะดีที่สุด หรือเจือจางโดย total volume ไม่เกิน 100 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : ไม่เกิน 50 mg/นาที ถ้าให้เร็วเกินไปจะทำให้เกิด Severe hypotension<br />
+  </span><span class="normal11black_u">Intermittent IV</span><span class=""> : 4 ชั่วโมง ในอัตราที่ ไม่เกิน 50 mg/นาทีควรให้ NSS flush ในเข็มที่ให้เพื่อป้องกันการระคายเคืองเส้นเลือด</span></td>
+    <td align="left" valign="top"><span class="">-เมื่อเจือจางแล้วควรใช้ทันที ไม่ควรแช่ตู้เย็นเพราะทำให้ยาตกตะกอน<br />
+      -ให้ Intermittent IV กรณี dose &gt; 1 g<br />
+      -ระวังการตกตะกอนของยา ละลายแล้วนำมาใช้ได้<br />
+      - ถ้าน้ำยามีสีเหลืองอ่อน,ใส สามารถใช้ได้หลีกเลี่ยงการฉีด IMเพราะจะปวดมาก monitor:BP, EKG Vitalsign(IVused), plasma phynytoin<br />
+      level,CBC,LFT ถ้าขนาดยามากกว่า 300 mg หรือ50 mg/min- USFDA Preg Cat D</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Potassium chioride</span></td>
+    <td align="left" valign="top"><span class="">Electrolyte supplement<br />
+    40 mEq /m2/dayIntermittent IV</span></td>
+    <td align="center" valign="top"><span class="">D5S,D5S/2,D5W,<br />
+    D10W,RINGER</span></td>
+    <td align="left" valign="top"><span class="">เจือจางในสารละลายที่ใช้ได้ 100-1,000 ml</span></td>
+    <td align="left" valign="top"><span class="">10-20 mEq /ชั่วโมง ในกรณีฉุกเฉินให้ 40 mEq/hr</span></td>
+    <td align="left" valign="top"><span class="">-เมื่อเจือจางแล้วคงตัว 24 ชั่วโมง.KCl 80 mEq/L ในD5Wที่มีsilica+aluminiumจะตกตะกอน<br />
+    -- USFDA Preg Cat A</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Pralidoxime</span><span class=""><br />
+  Chioride (2 -PAM)<br />
+  1 g</span></td>
+    <td align="left" valign="top"><span class="">-Antidote,Anticholinesterase<br />
+      1-2 g<br />
+    Direct IV,IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">NSS</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : 1 g ละลายในน้ำกลั่น 20 ml หรือไม่ต้องเจือจางในผู้ป่วยที่ pulmonary edema <br />
+      <br />
+    </span><span class="normal11black_u">      IV Infusion</span><span class=""> : เจือจางใน NSS อย่างน้อย 100 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : 1 g/ 5 นาที การให้เร็ว ๆ จะทำให้เกิด<br />
+  laryngospasm, mucle rigidity หรือ tachycardia<br />
+  </span><br />
+  <span class="normal11black_u">IV Infusion</span><span class="">: 1 dose ใน 15-30 นาที</span></td>
+    <td align="left" valign="top"><span class="">-วิธี Direct Iv ใช้เฉพาะกรณีผู้ป่วยมี pulmonary edema หรือให้วิธี Infusion ไม่ได้ เมื่อเตรียมแล้วควรใช้ทันที<br />
+      -ควรใช้ภายใน 24 ชม หลังจากผู้ป่วยกินยาสารพิษ<br />
+    -Monitor HR,RR,BP,continuous EKG</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Propranolol</span></td>
+    <td align="left" valign="top"><span class="">1-3 mg<br />
+    Direct IV,Intermittent IV</span></td>
+    <td align="center" valign="top"><span class="">D5S/2,D5S,NSS,D5<br />
+    W,RINGER</span></td>
+    <td align="left" valign="top"><span class="">Direct IV : ไม่ต้องเจือจางหรือเจือจาง 1 g .ใน D5W 20 ml Intermittent IV : เจือจางในสารละลายที่ใช้ได้ 50 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : ไม่เกิน 1mg /นาที เพื่อ หลีกเลี่ยงการเกิด excessive hypotension และ<br />
+  cardiac standstill<br />
+  <br />
+  </span><span class="normal11black_u">Intermittant IV</span><span class=""> : 1 mg/10-15 นาที</span></td>
+    <td align="left" valign="top"><span class="">-หลังจากเจือจางแล้ว คงตัวในสารละลาย D5W และ NSS เป็นเวลา 24 ชั่วโมงที่<br />
+      อุณหภูมิห้อง<br />
+      -- USFDA Preg Cat C:D in 2 nd 3rd trimester</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3"><a name="Q" id="Q"></a>Quininedihydrochlo</span><span class=""><br />
+  ride 600 mg/ 2 ml</span></td>
+    <td align="left" valign="top"><span class="">-Antimalarial Agent<br />
+      Loading dose 20 mg/kg<br />
+      Maintainance dose 10 mg/kg<br />
+    ทุก 8 ชม. เป็นเวลา 7 วัน</span></td>
+    <td align="center" valign="top"><span class="">D5W,D5S,NSS</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Loading dose</span><span class=""> : ใช้ยา 2 amp เจือจางด้วย D5W 500 ml Drip<br />
+      <br />
+  </span><span class="normal11black_u">Maintainance dose</span><span class=""> : ใช้ยา 1 amp เจือจางด้วย D5W 200 ml IV drip หรือ 2 amp เจือจางด้วย NSS 400 ml แบ่งใช้ครั้งละ 200 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Loading dose</span><span class=""> : ให้ IV ช้า ๆ หมดภายใน 4 ชม.<br />
+        <br />
+    </span><span class="normal11black_u">      Maintainance dose</span><span class=""> : ให้ทุก 8 ชม. เป็น เวลา 7 วัน หมดภายใน 2 ชม.</span></td>
+    <td align="left" valign="top"><span class="">-แนะนำให้ใช้สารละลายที่ใช้ได้ขนาด 400 ml + ยาฉีด 2 amp แล้วแบ่งให้ครั้งละ 200 ml ทุก 8 ชั่วโมง (เตรียมใช้ใหม่ทุกครั้ง)<br />
+      -Monitor CBCwith platelet count,LFT,Blood glucose,ophthalmologic examination<br />
+    -- USFDA Preg Cat X</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3"><a name="R" id="R"></a>Ranitidine</span><span class=""><br />
+  (Xanidine,<br />
+  Ranidine)<br />
+  500 mg/2 ml</span></td>
+    <td align="left" valign="top"><span class="">-Histamine H2 Antagonist<br />
+      </span><span class="normal11black_u">IM/IV</span><span class=""> : 50 mg/dose ทุก 6-8 ชม. ไม่ควรเกิน150 mg/day <br />
+      </span><span class="normal11black_u">Continuous Infusion</span><span class=""> :<br />
+      เริ่มต้น 50 mg ตามด้วย 6.25 mg/hr<br />
+      Direct IV,Intermittent<br />
+      IV,Continuous IV,IM</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5W,D10W</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">IM</span><span class=""> : ไม่ต้องเจือจาง<br />
+        <br />
+    </span><span class="normal11black_u">      Direct IV</span><span class=""> : เจือจางกับสารละลายที่ใช้ได้ 20 ml<br />
+      </span><span class="normal11black_u"><br />
+      Intermittent</span><span class=""> : 50 mg ในสารละลายที่ใช้ได้ 100 ml<br />
+      </span><br />
+      <span class="normal11black_u">Continuous</span><span class=""> : ในสารละลายที่ใช้ได้อย่างน้อย 250 ml (ความเข้มข้นไม่เกิน 2.5mg/ml)</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : อย่างน้อย 5 นาที<br />
+      <br />
+  </span><span class="normal11black_u">Intermittent</span><span class=""> : ไม่ควรเกิน 6.25 mg/hr</span></td>
+    <td align="left" valign="top"><span class="">-หลังเจือจางแล้วคงตัว 24 ชม ที่<br />
+      อุณหภูมิห้อง<br />
+      -การให้อย่างรวดเร็วอาจทำให้เกิด<br />
+      bradycardia และ tachycardia ได้<br />
+      -Monitor renal function<br />
+      impairement,hepatic function<br />
+      impairment<br />
+    -- USFDA Preg CatB</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3"><a name="S" id="S"></a>Streptokinas</span><span class=""><br />
+  (Streptase )<br />
+  1.5 mu</span></td>
+    <td align="left" valign="top"><span class="">-Fibrinolytic agent ใช้ 1.5 mu<br />
+    Direct IV,Intermittent IV</span></td>
+    <td align="center" valign="top"><span class="">D5W,NSS</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Infusion</span><span class=""> : ละลายด้วย D5W,NSS 10 ml แล้วเจือจางต่อ</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : 15 วินาที - 2 นาที<br />
+      <br />
+  </span><span class="normal11black_u">Intermittent IV</span><span class=""> : 30 - 60 นาที</span></td>
+    <td align="left" valign="top"><span class="">-หลังละลายแล้วคงตัว 24 ชั่วโมงในตู้เย็น<br />
+      -Monitor BP,PT,PTT,fibrinogen level<br />
+      -Skin test 100 u (15-20 min)ก่อนฉีด<br />
+    - USFDA Preg Cat C</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Streptomycin</span><span class=""><br />
+  1 g</span></td>
+    <td align="left" valign="top"><span class="">-Antituberculosis,aminoglycoside<br />
+      วัณโรค : 15 mg/kg /day,2-3 ครั้ง/<br />
+      สัปดาห์(maximum=1 gm)<br />
+    IM</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5W</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : 1 g ในน้ำกลั่น,NSS 3.5-4.5 ml<br />
+  </span><br />
+  <span class="normal11black_u">Infusion</span><span class=""> : เจือจางต่อด้วยสารละลายที่ใช้ได้</span></td>
+    <td align="left" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class="">- หลังละลายแล้วควรใช้ภายใน 48 ชม ที่อุณหภูมิห้องและ14 วัน เมื่อเก็บในตู้เย็น<br />
+      -monitor :hearing(audiogram),BUN,Cr<br />
+    - USFDA Preg Cat D</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Sodium<br />
+    bicarbonate</span></td>
+    <td align="left" valign="top"><span class="">-Electrolyte supplement ,alkalinizing agent<br />
+      0.5 - 5 mEq/kg<br />
+    Direct IV,Intermittent IV</span></td>
+    <td align="center" valign="top"><span class="">D5S,D5S/2,D5W,<br />
+    D10W</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : ในผู้ใหญ่ไม่ต้องเจือจางในเด็กเจือจางให้มีความเข้มข้นเกิน 4.2 % ด้วยสารละลายที่ใช้ได้<br />
+      <br />
+  </span><span class="normal11black_u">Infusion :</span><span class=""> เจือจางด้วยสารละลายที่ใช้ได้</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : 5 ml / นาที<br />
+      <br />
+  </span><span class="normal11black_u">Intermittent IV</span><span class=""> : 4-8 ชั่วโมง</span></td>
+    <td align="left" valign="top"><span class="">-หลังจากเจือจางแล้วคงตัว 24 ชม.<br />
+      -การให้อย่างรวดเร็ว (10 ml/นาที) อาจทำให้ hypernatremia ,CSF pressure ลดลงและอาจเกิด intracranial hemorrhage<br />
+    - USFDA Preg Cat C</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Succinycholine</span><span class=""><br />
+  (Suxamethonium<br />
+  chioride)<br />
+  0.5 g</span></td>
+    <td align="left" valign="top"><span class="">0.6 mg/kg ถ้า prolong procedure ให้ตามด้วย 0.05 mg/kg<br />
+    Direct IV,IV infusion</span></td>
+    <td align="center" valign="top"><span class="">0.45 %<br />
+      NaCI,NSS,D5W,RI<br />
+    NGER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : ไม่ต้องเจือจาง<br />
+      <br />
+  </span><span class="normal11black_u">IV infusion </span><span class="">: เจือจางให้มีความเข้มข้น 0.1-0.2 % ในสารละลายที่ใช้ได้</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : 10-30 วินาที<br />
+      <br />
+  </span><span class="normal11black_u">IV infusion</span><span class=""> : 0.5 - 10 mg/min</span></td>
+    <td align="left" valign="top"><span class="">-หลังเจือจางแล้วคงตัวที่อุณหภูมิห้อง 24 ชม.<br />
+      -หากใช้สารละลายไม่หมดให้ทิ้งสารละลายนั้น<br />
+    - USFDA Preg Cat C</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Sulperazone</span><span class=""><br />
+  (Cefoperazone+Su<br />
+  lbactam)<br />
+  0.5+0.5 g</span></td>
+    <td align="left" valign="top"><span class="">2-4 g/day ทุก 12 ชม.<br />
+    IM,Direct IV,IV infusion</span></td>
+    <td align="center" valign="top"><span class="">D5W,NSS,D5S/4<br />
+    ,D5S</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">IM </span><span class="">: 1 vial ในน้ำกลั่น 1.5-2 ml<br />
+  </span><br />
+  <span class="normal11black_u">Direct IV</span><span class=""> : 1 vial ในน้ำกลั่น 3-3.5 ml<br />
+  </span><br />
+  <span class="normal11black_u">Infusion</span><span class=""> : ในสารละลายที่ใช้ได้อย่างน้อย 10 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV </span><span class="">: 3 นาที<br />
+      <br />
+  </span><span class="normal11black_u">Infusion</span><span class=""> : 15-60 นาที</span></td>
+    <td align="left" valign="top"><span class="">-หลังละลายและเจือจางแล้วคงตัว 24 ชั่วโมง ที่อุณหภูมิห้องและตู้เย็น<br />
+    - USFDA Preg CatB</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3"><a name="T" id="T"></a>Terbutaline</span><span class=""><br />
+  (Bricanyl)<br />
+  0.5 mg/ml</span></td>
+    <td align="left" valign="top"><span class="">-Bronchodilator,Tocolytic agent<br />
+      SC : 0.25 mg ซ้ำได้ 15-30 นาที ขนาดยารวมไม่เกิน 0.5 mg/4 ชม<br />
+    SC, IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">D5W,NSS</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Infusion</span><span class=""> : ยา 5 mg+D5W ให้ได้ 5 mcg/ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Infusion </span><span class="">: 10 mg/นาที</span></td>
+    <td align="left" valign="top"><span class="">- หลังจากเจือจางแล้วคงตัว 48 ชม. และนิยมใช้ D5W จะใช้ NSS เมื่อผู้ป่วยมีข้อห้ามใช้ Dextrose เท่านั้น.monitor lung sound,pulse,BP,wheezing after admin call physician<br />
+    - USFDA Preg CatB</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Thiopental sodium</span><span class=""><br />
+  500 mg</span></td>
+    <td align="left" valign="top"><span class="">Induce anesthesia : 3-5 mg/kg<br />
+      Maintenace anesthesia : 25-100<br />
+      mg<br />
+    Direct IV, IV infusion</span></td>
+    <td align="center" valign="top"><span class="">0.45 %<br />
+    NaCI,NSS,D5W</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : 500 mg ละลายในสารละลายที่ใช้ได้อย่าง<br />
+  น้อย 20 ml<br />
+  <br />
+    </span><span class="normal11black_u">  IV infusion</span><span class=""> : intermittent ใช้ความเข้มข้น 2 หรือ 2.5 % Continuos ใช้ 0.2-0.6 %</span></td>
+    <td align="left" valign="top"><span class="">ให้ช้า ๆ หากให้เร็วเกินไปจะทำให้ over dose ได้</span></td>
+    <td align="left" valign="top"><span class="">- หากละลายได้แล้วคงตัวได้ 24 ชม. และไม่ควรใช้สารละลายหากมีตะกอนเกิดขึ้น<br />
+    - USFDA Preg Cat C</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Tramadol HCl</span><span class=""><br />
+  (Tramoda)<br />
+  100 mg</span></td>
+    <td align="left" valign="top"><span class="">-Analgesic ,Non–narcotic<br />
+      50-100 mg ทุก 4-6 ชมห้ามเกิน<br />
+    400 mg/วัน</span></td>
+    <td align="center" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class=""></span></td>
+    <td align="left" valign="top"><span class="">-เก็บที่อุณหภูมิห้อง 25 C<br />
+      - monitor pain relief,respiratory rate,BP and pulse,sign of tolerance or abuse<br />
+    - USFDA Preg Cat C</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Tranexamic acid</span><span class=""><br />
+  250 mg /5 ml (5%)</span></td>
+    <td align="left" valign="top"><span class="">250-500 mg/day<br />
+    Intermittent IV,IM</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5W,D10W,<br />
+    RINGER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">IV</span><span class=""> : เจือจางอย่างน้อย 50 ml ในสารละลายที่ใช้ได้</span></td>
+    <td align="left" valign="top"><span class="">-ไม่เกิน 1 ml /นาที การให้อย่างรวดเร็วอาจทำให้เกิด<br />
+    hypotension</span></td>
+    <td align="left" valign="top"><span class="">- การให้ทาง IM ระมัดระวังการเกิด tissues or nerves damage ควรหลีกเลี่ยงการฉีดในที่เดิม<br />
+    -- USFDA Preg CatB</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Trastuzumab</span><span class=""><br />
+  (Herceptin)<br />
+  440mg+SWFI+dilu<br />
+  ent benzyl alcohol</span></td>
+    <td align="left" valign="top"><span class="">Antineoplastic agent<br />
+      Initial loading dose:4 mg/kgIV<br />
+      Maintenance dose:2 mg/kgIV<br />
+    IV infusion</span></td>
+    <td align="center" valign="top"><span class="">SWFI(Sterile Water<br />
+    For Injection)</span></td>
+    <td align="left" valign="top"><span class="">ผสมเจือจางกับSWFI =20 ml ห้ามเขย่าจะได้สารละลาย<br />
+    =21mg/ml</span></td>
+    <td align="left" valign="top"><span class="">-IV infusion loading dose .ให้นาน 90 นาฑี<br />
+      Maintenance doseให้นาน 30 นาฑีถ้าทนได้</span></td>
+    <td align="left" valign="top"><span class="">-ก่อนผสมเก็บยาในตู้เย็น2-8 Cหรือ 38-48F หลังผสมกับSWFI แล้วเก็บได้ 28 วันในตู้เย็น<br />
+      -ห้ามผสมรวมกับD5W แต่ dilute ด้วย NSSอยู่ได้ 24 ชม ที่อุณหภูมิห้อง แต่ควรเก็บในตู้เย็นอุณหภูมิ 2-8 Cmonitor cadiac dysfunction and vital sign- USFDA Preg CatB</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3"><a name="V" id="V"></a>Vancomycin</span><span class=""><br />
+  500 mg<br />
+  (Vancocin inj)</span></td>
+    <td align="left" valign="top"><span class="">1 g ทุก 12 ชม. หรือ 10-15 mg/kg/dose ทุก 12 ชม หรือ 500 mg ทุก 6 ชม<br />
+      Intermittent IV,<br />
+    IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">NSS,D5W,D10W,<br />
+      D5S,Sodium<br />
+    Bicarbonate 3.75 %</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Intermittent IV</span><span class=""> : ละลาย 500 mg ใน D5W หรือ NSS 10 ml แล้วจึงปรับปริมาตรด้วย NSS หรือ D5W ให้ครบ 100-200 ml<br />
+  </span><br />
+  <span class="normal11black_u">IV Infusion</span><span class=""> : 1-2 g ในสารละลายที่ใช้ได้ drip 24 ชม</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">IV Infusion</span><span class=""> : 24 ชม (daily dose)<br />
+        <br />
+    </span><span class="normal11black_u">      Intermittent IV</span><span class=""> : 60 นาที</span></td>
+    <td align="left" valign="top"><span class="">-ขนาดยาที่ระบุสำหรับผู้ป่วยที่มีสภาวะไตปกติเท่านั้น ผู้ป่วยที่มีภาวะไตผิดปกติ ควรปรับขนาดยา<br />
+      -ไม่เข้ากันกับ Heparin และ Phenobarbital หลังจากละลายยาแล้ว เก็บได้ 7 วันที่อุณหภูมิ 25 องศา และในตู้เย็นเก็บได้ 14วันการให้อย่างรวดเร็วอาจเกิด red-man syndrome ได้ เช่น hypotension,flushing,rash<br />
+    -- USFDA Preg Cat C</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Vecuronium</span><span class=""><br />
+  </span><span class="style3">Bromide</span><span class=""> (Vecuron,<br />
+  Norcuron)<br />
+  4 mg/ml</span></td>
+    <td align="left" valign="top"><span class="">0.08-0.1 mg/kg<br />
+    Direct IV ,IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">D5W,NSS,D5S,<br />
+    RINGER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : 10 mg ในน้ำกลั่น 5 ml<br />
+  </span><br />
+  <span class="normal11black_u">IV Infusion</span><span class=""> : 10-20 mg ในสารละลายที่ใช้ได้อย่างน้อย 100 ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : 1/2 - 1 นาที<br />
+  </span><br />
+  <span class="normal11black_u">IV Infusion</span><span class=""> : ตามการตอบสนองของ ผู้ป่วย</span></td>
+    <td align="left" valign="top"><span class="">-หลังเจือจางแล้วคงตัว 1 วัน แต่หากเจือจางใน bacteriostatic water คงตัว 5 วัน<br />
+      <br />
+    - USFDA Preg CatC</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><span class="style3">Verapamil</span><span class=""><br />
+  (Isoptin)<br />
+  5 mg/ 2 ml</span></td>
+    <td align="left" valign="top"><span class="">10 mg ทุก 30 นาทีไม่เกิน 20mg<br />
+    Direct IV,IV Infusion</span></td>
+    <td align="center" valign="top"><span class="">D5W,NSS,RINGER</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">IV</span><span class=""> : ไม่ต้องเจือจาง โดยให้ทาง Y - site หรือ 3 - way<br />
+  </span><span class="normal11black_u"><br />
+  Infusion</span><span class=""> : เจือจางให้ได้ 1 mg/ml</span></td>
+    <td align="left" valign="top"><span class="normal11black_u">Direct IV</span><span class=""> : 2-3 นาที<br />
+  </span><br />
+  <span class="normal11black_u">Infusion</span><span class=""> : 5-10 mg/ชม</span></td>
+    <td align="left" valign="top"><span class="">-ไม่ควรเก็บสารละลายที่เหลือใช้และอย่าใช้ถ้าสารละลายไม่มีสี หรือมีตะกอน ห้ามใช้<br />
+      ร่วมกับ sodium bicarbonate solution in saline ทาง IV line ระวังเกิด hypotension,dizziness ,flushing<br />
+    - USFDA Preg Cat C</span></td>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+</tbody>
+</table>
+
+<p class="normal11black">1. Charles F.Lacy and Lora L.Aramstrong and Morton P.Goldman,Drug Information Handbook.Twelfth Edition,2004-2005 ( เอกสารอ้างอิง )<br />
+  2. Lawrence A.Trissel,Handbook on injectable Drugs,11th Edition American Society of Hospital Pharmacist ,Inc,2001<br />
+  3. Lynn D Phillips and Merrily A .Ruhn,Manual of Intravenous Medication,First Edition,Little,Brown and company Inc,1996<br />
+  4. คู่มือแนวทางบริหารยาฉีด กลุ่มงานเภสัชกรรม โรงพยาบาลพระจอมเกล้า จ.เพชรบุรี(จัดทำโดย ภญ.วรรณี กีรติเตชากรและเภสัชกรหญิง อาภรณ์ บัวมณี)<br />
+  5. MIMS 96 th edition 2004<br />
+6. James E.F. Reynolds ,Martindale The Extra Pharmacopoei,Twenty –ninth edition</p>
+</div>
+</body>
+</html>

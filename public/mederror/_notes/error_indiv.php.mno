@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_set1" value="name:date_error;datatype:string" />
+	<infoitem key="UD_row_set2" value="name:lastday;datatype:int" />
+	<infoitem key="UD_rs_set3" value="name:date_error;datatype:string" />
+	<infoitem key="UD_rs_set4" value="name:name1;datatype:int" />
+	<infoitem key="UD_sum1" value="name:sum(name1);datatype:real,name:sum(name2);datatype:real,name:sum(name3);datatype:real,name:sum(name4);datatype:real,name:sum(name5);datatype:real,name:sum(name6);datatype:real,name:sum(name7);datatype:real,name:sum(name8);datatype:real,name:sum(name9);datatype:real,name:sum(name10);datatype:real" />
+	<infoitem key="UD_rs_set5" value="name:sum1;datatype:int" />
+	<infoitem key="UD_person_error" value="name:name;datatype:string,name:doctorcode;datatype:string,name:hospital_department_id;datatype:int" />
+	<infoitem key="UD_error_type" value="name:id;datatype:int,name:type_id;datatype:int,name:name;datatype:string,name:order_cause;datatype:int,name:status;datatype:int" />
+	<infoitem key="UD_drug1" value="name:drugcode;datatype:string,name:drugname;datatype:string,name:icode;datatype:string" />
+	<infoitem key="UD_search" value="name:id;datatype:int,name:date_error;datatype:string,name:date_error2;datatype:string,name:name1;datatype:int,name:name2;datatype:int,name:name3;datatype:int,name:name4;datatype:int,name:name5;datatype:int,name:name6;datatype:int,name:name7;datatype:int,name:name8;datatype:int,name:name9;datatype:int,name:name10;datatype:int" />
+	<infoitem key="UD_lasa" value="name:id;datatype:int,name:date_error;datatype:date,name:person;datatype:int,name:doctor_code;datatype:string,name:error_type;datatype:int,name:drug1;datatype:int,name:drug2;datatype:int,name:pttype;datatype:string,name:lasagroup;datatype:string,name:oqueue;datatype:int,name:name1;datatype:string,name:name2;datatype:string" />
+	<infoitem key="UD_rs_setting" value="name:id;datatype:int,name:name;datatype:string,name:value;datatype:string" />
+	<infoitem key="UD_error" value="name:id;datatype:int,name:date_error;datatype:date,name:person;datatype:string,name:name;datatype:string,name:drugname1;datatype:string,name:drugname2;datatype:string,name:personid;datatype:int,name:doctor_code;datatype:string" />
+	<infoitem key="UD_rs_doctor" value="name:name;datatype:string" />
+	<infoitem key="UD_rs_drug1" value="name:drugname;datatype:string" />
+	<infoitem key="UD_rs_drug2" value="name:drugname;datatype:string" />
+</info>

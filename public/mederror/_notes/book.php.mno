@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:amppart;datatype:string,name:chwpart;datatype:string,name:hospcode;datatype:string,name:hosptype;datatype:string,name:name;datatype:string,name:tmbpart;datatype:string,name:moopart;datatype:string,name:sss_code;datatype:string,name:sss_code_sub;datatype:string,name:hospcode506;datatype:string" />
+</info>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_hoscode" value="name:hospcode;datatype:string,name:hosptype;datatype:string,name:name;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:code;datatype:string,name:name;datatype:string" />
+	<infoitem key="UD_name" value="name:concat( hospcode.hosptype,hospcode.name);datatype:string" />
+	<infoitem key="UD_config_h" value="name:id;datatype:int,name:hcode;datatype:int" />
+</info>

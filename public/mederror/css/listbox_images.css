@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+select#driver_vehicles_brand{
+	width:200px;
+    color:#333333;   
+    background-color:#EAEAEA;   
+    border:1px solid #999999;   
+}
+select#driver_vehicles_brand option{
+    color:#333333;   
+    background-color:#FFFFFF;   
+    border:1px solid #999999;   
+}
+
+ul.myUL1{   
+    margin:0px;   
+    padding:0px;   
+    font-size:12px;   
+    width:200px;   
+    color:#333333;   
+    background-color:#FFFFFF;   
+    border:1px solid #999999;   
+    position:absolute;   
+    display:none;   
+    list-style:none;   
+	z-index:100;
+/* ถ้ารายการตัวเลือกมีมาก สามารถกำหนดความสูง แล้วให้มีมี scroll เลื่อนดูข้อมูล  
+โดยเอา comment สองบรรทัดล่างนี้ออก */      
+  	height:300px;  
+    overflow:auto;  
+}   
+ul.myUL1 li{   
+    margin:0px;   
+    padding:0px;   
+    cursor:pointer;   
+    text-indent:80px; 
+    list-style:none;   
+}   
+ul.myUL1 li:hover{   
+    margin:0px;   
+    padding:0px;   
+    cursor:pointer;   
+    background-color:#666666;   
+    color:#FFFFFF;   
+}
+div.myPic{
+	display:block;
+	width:80px;
+	height:300px;
+    color:#333333;   
+    background-color:#FFFFFF;   
+    border:1px solid #999999;   
+	border-right-width:0px;
+	z-index:110;	
+	position:absolute;  
+	display:none;
+	text-align:center;
+}
+div.myPic img{
+	width:50px;
+	height:50px;
+	border:0;
+	display:none;
+}

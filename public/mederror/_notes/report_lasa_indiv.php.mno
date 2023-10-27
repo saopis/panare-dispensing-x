@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_person" value="name:id;datatype:int,name:person;datatype:string" />
+	<infoitem key="UD_lasa" value="name:lasa;datatype:int,name:drug1;datatype:string,name:drug2;datatype:string" />
+	<infoitem key="UD_countdate" value="name:id;datatype:int" />
+	<infoitem key="UD_drug1" value="name:drug;datatype:string" />
+	<infoitem key="UD_drug2" value="name:drug;datatype:string" />
+	<infoitem key="UD_rs_setting" value="name:id;datatype:int,name:name;datatype:string,name:value;datatype:string" />
+</info>

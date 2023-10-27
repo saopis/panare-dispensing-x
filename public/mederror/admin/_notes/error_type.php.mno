@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_type_error" value="name:id;datatype:int,name:type_thai;datatype:string,name:type_eng;datatype:string,name:order_type;datatype:int" />
+</info>

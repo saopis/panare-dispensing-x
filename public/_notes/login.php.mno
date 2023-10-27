@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_channel" value="name:id;datatype:int,name:ip;datatype:string,name:channel;datatype:string,name:room_id;datatype:int,name:print_server;datatype:string,name:call_server;datatype:string,name:doctor_type;datatype:int,name:cursor_position;datatype:string,name:depcode;datatype:string,name:q_number;datatype:string,name:q_dep_type;datatype:string,name:time_per_case;datatype:int,name:caller_tv;datatype:string,name:caller_method;datatype:int,name:patient_picture;datatype:string,name:queue_method;datatype:int,name:queue_display;datatype:int,name:kskdepart;datatype:string,name:outdepcode;datatype:string,name:queue_list;datatype:int,name:recent_rx_queue;datatype:int,name:recent_rx_queue_datetime;datatype:datetime" />
+	<infoitem key="UD_rs_version" value="name:id;datatype:int,name:name;datatype:string,name:value;datatype:string" />
+</info>

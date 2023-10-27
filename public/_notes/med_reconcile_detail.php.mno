@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_screen" value="name:bpd;datatype:real,name:bps;datatype:real,name:bw;datatype:real,name:cc;datatype:blob,name:pe;datatype:blob,name:hr;datatype:real,name:pulse;datatype:real,name:temperature;datatype:real,name:pregnancy;datatype:string,name:breast_feeding;datatype:string,name:height;datatype:int" />
+	<infoitem key="UD_s_pdx" value="name:code;datatype:string,name:name;datatype:string" />
+	<infoitem key="UD_s_doctor" value="name:name;datatype:string,name:position_name;datatype:string,name:id;datatype:int,name:code;datatype:string" />
+	<infoitem key="UD_selpic" value="name:cc;datatype:int" />
+</info>

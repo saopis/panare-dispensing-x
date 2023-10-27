@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_countdate" value="name:id;datatype:int" />
+	<infoitem key="UD_lasa" value="name:lasa;datatype:int,name:drug1;datatype:string,name:drug2;datatype:string" />
+</info>

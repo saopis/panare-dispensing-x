@@ -1,0 +1,20 @@
+
+h1 , a { font-family: Tahoma,Arial,Helvetica,sans-serif;font-size: 14px; }
+label { font-family: Tahoma,Arial,Helvetica,sans-serif;font-size: 12px; }
+#displayTable {
+	float: left;
+	width: 728px;
+	margin: 0px 0px 0px 0px;
+}
+.tip {
+	width: 212px;
+	padding-top: 30px;
+	overflow: hidden;
+	display: none;
+	position: absolute;
+	z-index: 500;
+	background: transparent url(../images/tipTop.png) no-repeat top;
+	font-size: 12px;
+}
+.tipMid {background: transparent url(../images/tipMid.png) repeat-y; padding: 0 20px 20px 20px;}
+.tipBtm {background: transparent url(../images/tipBtm.png) no-repeat bottom; height: 32px;}

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_person" value="name:id;datatype:int,name:person;datatype:string,name:person_order;datatype:int,name:person_status;datatype:string" />
+	<infoitem key="UD_rs_person2" value="name:id;datatype:int,name:person;datatype:string,name:person_order;datatype:int,name:person_status;datatype:string" />
+	<infoitem key="UD_sum1" value="name:sum(name1);datatype:real,name:sum(name2);datatype:real,name:sum(name3);datatype:real,name:sum(name4);datatype:real,name:sum(name5);datatype:real,name:sum(name6);datatype:real,name:sum(name7);datatype:real,name:sum(name8);datatype:real,name:sum(name9);datatype:real,name:sum(name10);datatype:real,name:sum(name11);datatype:real,name:sum(name12);datatype:real,name:sum(name13);datatype:real,name:sum(name14);datatype:real,name:sum(name15);datatype:real,name:sum(name16);datatype:real,name:sum(name17);datatype:real,name:sum(name18);datatype:real,name:sum(name19);datatype:real,name:sum(name20);datatype:real,name:sum(name21);datatype:real,name:sum(name22);datatype:real,name:sum(name23);datatype:real,name:sum(name23);datatype:real,name:sum(name24);datatype:real,name:sum(name25);datatype:real,name:sum(name26);datatype:real,name:sum(name27);datatype:real,name:sum(name28);datatype:real,name:sum(name29);datatype:real,name:sum(name30);datatype:real" />
+	<infoitem key="UD_rs_setting" value="name:id;datatype:int,name:name;datatype:string,name:value;datatype:string" />
+</info>

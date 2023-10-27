@@ -1,0 +1,28 @@
+/************************** Form Input ************************************/
+form label{
+	float: left;
+	text-align: left;
+	width: 120px;
+}
+input, textarea, select {
+	padding: 2px;
+	margin: 2px;
+}
+input[type="text"], input[type="password"], textarea {
+	border: 1px solid #CCCCCC;
+}
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
+	border: 1px solid #0033FF;
+}
+
+form.required{
+
+}
+
+label.error {
+	float:none;
+	color: red;
+	font-style: italic;
+	display:none;
+}
+

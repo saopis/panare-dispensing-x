@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_visit" value="name:vstdate;datatype:date,name:rxtime;datatype:time,name:vn;datatype:string,name:an;datatype:string" />
+	<infoitem key="UD_rs_drugs" value="name:drugname;datatype:string,name:shortlist;datatype:string,name:sp_use;datatype:string,name:qty;datatype:int,name:hospitalcode;datatype:string,name:icode;datatype:string" />
+	<infoitem key="UD_rs_search" value="name:hn;datatype:string,name:vstdate;datatype:date,name:vstdate2;datatype:date,name:hos_guid;datatype:string,name:icode;datatype:string,name:drug_name;datatype:string,name:drugusage;datatype:string,name:qty;datatype:int,name:src_hospcode;datatype:string" />
+</info>

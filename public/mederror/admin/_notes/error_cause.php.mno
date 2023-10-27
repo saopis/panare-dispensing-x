@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_cause" value="name:id;datatype:int,name:type_id;datatype:int,name:name;datatype:string,name:status;datatype:int" />
+	<infoitem key="UD_error_type" value="name:name;datatype:string,name:id;datatype:int" />
+	<infoitem key="UD_update_c" value="name:id;datatype:int,name:type_id;datatype:int,name:name;datatype:string,name:status;datatype:int" />
+</info>

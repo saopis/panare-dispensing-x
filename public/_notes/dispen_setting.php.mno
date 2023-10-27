@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_position" value="name:id;datatype:int,name:name;datatype:string,name:hos_guid;datatype:string,name:charge_new_patient;datatype:string,name:no_multiple_charge;datatype:string,name:pt_subtype;datatype:int" />
+	<infoitem key="UD_rs_lab_item" value="name:lab_items_code;datatype:int,name:lab_items_name;datatype:string" />
+</info>

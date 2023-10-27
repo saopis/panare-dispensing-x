@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_report" value="name:id;datatype:int,name:reporter;datatype:string,name:date;datatype:date,name:time;datatype:time,name:detail;datatype:string,name:hn;datatype:int,name:patient_name;datatype:string,name:age;datatype:int,name:dep_report;datatype:int,name:dep_error;datatype:int,name:category;datatype:blob,name:suggest;datatype:string,name:drug1;datatype:int,name:drug2;datatype:int" />
+	<infoitem key="UD_sel_cause" value="name:id;datatype:int,name:rid;datatype:int,name:cause_id;datatype:blob" />
+	<infoitem key="UD_cuase_note" value="name:note;datatype:string" />
+	<infoitem key="UD_drug" value="name:name;datatype:string,name:strength;datatype:string,name:did;datatype:string" />
+	<infoitem key="UD_sel_sub" value="name:sub_id;datatype:int" />
+	<infoitem key="UD_rs_result" value="name:id;datatype:int,name:detail;datatype:string,name:docname;datatype:string,name:date;datatype:date,name:dep_report;datatype:int,name:category;datatype:blob,name:name;datatype:string,name:type_thai;datatype:string,name:tid;datatype:int" />
+	<infoitem key="UD_error_type2" value="name:id;datatype:int,name:type_thai;datatype:string,name:type_eng;datatype:string,name:order_type;datatype:int,name:status;datatype:int" />
+</info>

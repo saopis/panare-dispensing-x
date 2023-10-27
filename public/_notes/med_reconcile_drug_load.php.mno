@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_s_patient" value="name:patient_name;datatype:string,name:hn;datatype:string,name:age_y;datatype:int,name:age_m;datatype:int,name:thaiaddress;datatype:string,name:vstdate;datatype:date,name:vn;datatype:string,name:pttype;datatype:string,name:doctor;datatype:string,name:pdx;datatype:string,name:cid;datatype:string,name:pttypeno;datatype:string,name:vstdate;datatype:date,name:vsttime;datatype:time,name:pttypeno;datatype:string" />
+	<infoitem key="UD_screen" value="name:bpd;datatype:real,name:bps;datatype:real,name:bw;datatype:real,name:cc;datatype:blob,name:pe;datatype:blob,name:pulse;datatype:real,name:temperature;datatype:real" />
+	<infoitem key="UD_pttyp" value="name:name;datatype:string,name:paidst;datatype:string,name:pttype;datatype:string" />
+	<infoitem key="UD_s_doctor" value="name:name;datatype:string" />
+	<infoitem key="UD_rx_doctor" value="name:rx_time;datatype:time" />
+	<infoitem key="UD_s_pdx" value="name:code;datatype:string,name:name;datatype:string" />
+	<infoitem key="UD_allergy" value="name:hn;datatype:string,name:report_date;datatype:date,name:agent;datatype:string,name:symptom;datatype:string,name:reporter;datatype:string" />
+</info>

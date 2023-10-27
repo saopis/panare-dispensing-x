@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_prename" value="name:name;datatype:string,name:class;datatype:int,name:sex;datatype:string,name:provis_code;datatype:string,name:hos_guid;datatype:string,name:hos_guid_ext;datatype:string,name:min_age;datatype:int,name:marrystatus;datatype:string,name:ename;datatype:string" />
+</info>
